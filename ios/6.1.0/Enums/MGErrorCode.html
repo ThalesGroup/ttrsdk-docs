@@ -1,0 +1,2111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MGErrorCode Enumeration Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Enum/MGErrorCode" class="dashAnchor"></a>
+    <a title="MGErrorCode Enumeration Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">TSHPaySDK 6.1.0 Docs</a></p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">TSHPaySDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        MGErrorCode Enumeration Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Address.html">Address</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CHVerificationManager.html">CHVerificationManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CardMetaData.html">CardMetaData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConnectionConfigurationBuilder.html">ConnectionConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DeviceCVMManager.html">DeviceCVMManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DigitalizedCardAdditionalPaymentData.html">DigitalizedCardAdditionalPaymentData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DigitalizedCardManager.html">DigitalizedCardManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)DigitalizedCardProfileKeys">DigitalizedCardProfileKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InputMethod.html">InputMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IssuerData.html">IssuerData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KeyValues.html">KeyValues</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)KnownMessageCode">KnownMessageCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MGCardInfoEncryptor.html">MGCardInfoEncryptor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)MGConnectionConfiguration">MGConnectionConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)MGTransactionHistoryConfiguration">MGTransactionHistoryConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)MGWalletConfiguration">MGWalletConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MerchantIdentifier.html">MerchantIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MobileGatewayManager.html">MobileGatewayManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PaymentInputDataBuilder.html">PaymentInputDataBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PaymentServiceManager.html">PaymentServiceManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProvisioningServiceError.html">ProvisioningServiceError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProvisioningServiceManager.html">ProvisioningServiceManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProvisioningServiceMessage.html">ProvisioningServiceMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SDKController.html">SDKController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TransactionHistoryBuilder.html">TransactionHistoryBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WalletAccountData.html">WalletAccountData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WalletBuilder.html">WalletBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WalletSecureEnrollmentError.html">WalletSecureEnrollmentError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@ADDITIONAL_DATA">ADDITIONAL_DATA</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@ADDITIONAL_DATA_PAN_EXPIRY">ADDITIONAL_DATA_PAN_EXPIRY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@ADDITIONAL_DATA_PAN_LAST_4_DIGITS">ADDITIONAL_DATA_PAN_LAST_4_DIGITS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@ADDITIONAL_DATA_PRODUCT_ID">ADDITIONAL_DATA_PRODUCT_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@AvailableServiceToString">AvailableServiceToString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CPS_ERROR_CODE_DEFAULT">CPS_ERROR_CODE_DEFAULT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CVM_RESET_TIMEOUT">CVM_RESET_TIMEOUT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@DC_TOKEN_ID">DC_TOKEN_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@DUAL_TAP_TIMEOUT">DUAL_TAP_TIMEOUT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@HTTP_STATUS_CODE_DEFAULT">HTTP_STATUS_CODE_DEFAULT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@HTTP_STATUS_CODE_NO_INTERNET">HTTP_STATUS_CODE_NO_INTERNET</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MASTERCARD_APPLICATION_LIFE_CYCLE_DATA">MASTERCARD_APPLICATION_LIFE_CYCLE_DATA</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MASTERCARD_CARD_LAYOUT_DESC">MASTERCARD_CARD_LAYOUT_DESC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MASTERCARD_MCHIP_ISSUER_OPTIONS">MASTERCARD_MCHIP_ISSUER_OPTIONS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MASTERCARD_SECURITY_WORD">MASTERCARD_SECURITY_WORD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MSG_PAYMENT_INVALID_CRYPTOGRAM">MSG_PAYMENT_INVALID_CRYPTOGRAM</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MSG_PAYMENT_PIN_LOCKED">MSG_PAYMENT_PIN_LOCKED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MSG_PAYMENT_TRANSACTION_APPROVED">MSG_PAYMENT_TRANSACTION_APPROVED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MSG_PAYMENT_WRONG_PIN">MSG_PAYMENT_WRONG_PIN</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MSG_PIN_CHANGE_SUCCESSFUL">MSG_PIN_CHANGE_SUCCESSFUL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@PAYMENT_CHANNELS">PAYMENT_CHANNELS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@RAGES_ERROR_CODE_EXCEPTION">RAGES_ERROR_CODE_EXCEPTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REPERSO_TIMEOUT_ERROR">REPERSO_TIMEOUT_ERROR</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REQUEST_DELETE_CARD">REQUEST_DELETE_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REQUEST_INSTALL_CARD">REQUEST_INSTALL_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REQUEST_RENEW_CARD">REQUEST_RENEW_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REQUEST_REPLENISH_KEYS">REQUEST_REPLENISH_KEYS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REQUEST_RESUME_CARD">REQUEST_RESUME_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REQUEST_SUSPEND_CARD">REQUEST_SUSPEND_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:ThreeDSecure.h@RESULT_CODE_AUTHENTICATION_FAILED">RESULT_CODE_AUTHENTICATION_FAILED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:ThreeDSecure.h@RESULT_CODE_SESSION_NOT_FOUND">RESULT_CODE_SESSION_NOT_FOUND</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:ThreeDSecure.h@RESULT_CODE_SUCCESS">RESULT_CODE_SUCCESS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@SCHEME">SCHEME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@TAG_PAYMENT_OPTION">TAG_PAYMENT_OPTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@TAG_PAYMENT_OPTION_DATA_ENTRY">TAG_PAYMENT_OPTION_DATA_ENTRY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@TSHPaySDKVersionNumber">TSHPaySDKVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@TSHPaySDKVersionString">TSHPaySDKVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SDKReleaseInfo.h@TSH_RELEASE_BUILD">TSH_RELEASE_BUILD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SDKReleaseInfo.h@TSH_RELEASE_QUALIFIER">TSH_RELEASE_QUALIFIER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SDKReleaseInfo.h@TSH_RELEASE_VERSION">TSH_RELEASE_VERSION</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AccessControlFlag.html">AccessControlFlag</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AppCodeStatus.html">AppCodeStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AvailableServices.html">AvailableServices</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CHCodeInputErrorCode.html">CHCodeInputErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CHVerificationMethod.html">CHVerificationMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CdcvmSupported.html">CdcvmSupported</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CryptogramDataType.html">CryptogramDataType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DeviceEligibility.html">DeviceEligibility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DigitalizedCardErrorCodes.html">DigitalizedCardErrorCodes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DigitalizedCardState.html">DigitalizedCardState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EnrollmentStatus.html">EnrollmentStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GetAccessTokenMode.html">GetAccessTokenMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/InputMethodEnum.html">InputMethodEnum</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/KnownCpsErrorCodes.html">KnownCpsErrorCodes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MGErrorCode.html">MGErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MGSDKConfigurationState.html">MGSDKConfigurationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MessageClassification.html">MessageClassification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Outcome.html">Outcome</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PaymentServiceErrorCode.html">PaymentServiceErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PaymentType.html">PaymentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PendingCardActivationState.html">PendingCardActivationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ProvisioningServiceCodeType.html">ProvisioningServiceCodeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ProvisioningServiceErrorCodes.html">ProvisioningServiceErrorCodes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TerminalTechnology.html">TerminalTechnology</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TerminalType.html">TerminalType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TransactionConditions.html">TransactionConditions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TransactionPurpose.html">TransactionPurpose</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TransactionRange.html">TransactionRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TransactionType.html">TransactionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TwoTapSupported.html">TwoTapSupported</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UserActionOnPoi.html">UserActionOnPoi</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/WalletSecureEnrollmentErrorCodes.html">WalletSecureEnrollmentErrorCodes</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AccessTokenDelegate.html">AccessTokenDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BusinessService.html">BusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CHCodeInput.html">CHCodeInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CHVerifier.html">CHVerifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CVMResetTimeoutDelegate.html">CVMResetTimeoutDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CardArtSize.html">CardArtSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CardProduct.html">CardProduct</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DigitalizedCard.html">DigitalizedCard</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DigitalizedCardDetails.html">DigitalizedCardDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DigitalizedCardStatus.html">DigitalizedCardStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EnrollingBusinessService.html">EnrollingBusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EnrollingServiceDelegate.html">EnrollingServiceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IDVMethod.html">IDVMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IDVMethodSelector.html">IDVMethodSelector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MGCardEnrollmentService.html">MGCardEnrollmentService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MGCardLifeCycleManager.html">MGCardLifeCycleManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MGDigitizationDelegate.html">MGDigitizationDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MGTransactionHistoryService.html">MGTransactionHistoryService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MGTransactionRecord.html">MGTransactionRecord</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MasterCardTransactionInfo.html">MasterCardTransactionInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MastercardTerminalInfo.html">MastercardTerminalInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MastercardTransactionContext.html">MastercardTransactionContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MobileGatewayError.html">MobileGatewayError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentBusinessService.html">PaymentBusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentInputData.html">PaymentInputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentService.html">PaymentService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentServiceDelegate.html">PaymentServiceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PendingCardActivation.html">PendingCardActivation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ProvisioningBusinessService.html">ProvisioningBusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PushServiceDelegate.html">PushServiceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/QRCodeData.html">QRCodeData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/RemotePaymentOutputData.html">RemotePaymentOutputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SDKControllerDelegate.html">SDKControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SecureCodeInputer.html">SecureCodeInputer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TermsAndConditionSession.html">TermsAndConditionSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TermsAndConditions.html">TermsAndConditions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ThreeDSecure.html">ThreeDSecure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TransactionContext.html">TransactionContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/WalletSecureEnrollmentBusinessService.html">WalletSecureEnrollmentBusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/WalletSecureEnrollmentDelegate.html">WalletSecureEnrollmentDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CPSCommon.h@T@BoolResultHandler">BoolResultHandler</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>MGErrorCode</h1>
+              <div class="declaration">
+                <div class="language">
+                  <p class="aside-title">Objective-C</p>
+                  <pre class="highlight objective_c"><code><span class="k">enum</span> <span class="n">MGErrorCode</span> <span class="p">{}</span></code></pre>
+
+                </div>
+                <div class="language">
+                  <p class="aside-title">Swift</p>
+                  <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">MGErrorCode</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                </div>
+              </div>
+            <p>MGErrorCode enum
+@abstract Describes error code of MobileGateway</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@NO_INTERNET"></a>
+                    <a name="//apple_ref/objc/Case/NO_INTERNET" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@NO_INTERNET">NO_INTERNET</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type no internet</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">NO_INTERNET</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">NO_INTERNET</span> <span class="o">=</span> <span class="mi">0</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@CONNECTION_TIMEOUT"></a>
+                    <a name="//apple_ref/objc/Case/CONNECTION_TIMEOUT" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@CONNECTION_TIMEOUT">CONNECTION_TIMEOUT</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type time out</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">CONNECTION_TIMEOUT</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">CONNECTION_TIMEOUT</span> <span class="o">=</span> <span class="mi">1</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@COMMUNICATION_ERROR"></a>
+                    <a name="//apple_ref/objc/Case/COMMUNICATION_ERROR" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@COMMUNICATION_ERROR">COMMUNICATION_ERROR</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type communication error</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">COMMUNICATION_ERROR</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">COMMUNICATION_ERROR</span> <span class="o">=</span> <span class="mi">2</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@SERVER_ERROR"></a>
+                    <a name="//apple_ref/objc/Case/SERVER_ERROR" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@SERVER_ERROR">SERVER_ERROR</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type server error</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">SERVER_ERROR</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">SERVER_ERROR</span> <span class="o">=</span> <span class="mi">3</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@INTERNAL_ERROR"></a>
+                    <a name="//apple_ref/objc/Case/INTERNAL_ERROR" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@INTERNAL_ERROR">INTERNAL_ERROR</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type internal error</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">INTERNAL_ERROR</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">INTERNAL_ERROR</span> <span class="o">=</span> <span class="mi">4</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@FPAN_NOT_ELIGIBLE"></a>
+                    <a name="//apple_ref/objc/Case/FPAN_NOT_ELIGIBLE" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@FPAN_NOT_ELIGIBLE">FPAN_NOT_ELIGIBLE</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type FPAN is not eligible</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">FPAN_NOT_ELIGIBLE</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">FPAN_NOT_ELIGIBLE</span> <span class="o">=</span> <span class="mi">5</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@UNKNOWN_BIN"></a>
+                    <a name="//apple_ref/objc/Case/UNKNOWN_BIN" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@UNKNOWN_BIN">UNKNOWN_BIN</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type unknown bin</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">UNKNOWN_BIN</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">UNKNOWN_BIN</span> <span class="o">=</span> <span class="mi">6</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@UNKNOWN_CARD_PRODUCT"></a>
+                    <a name="//apple_ref/objc/Case/UNKNOWN_CARD_PRODUCT" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@UNKNOWN_CARD_PRODUCT">UNKNOWN_CARD_PRODUCT</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type unknown card product</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">UNKNOWN_CARD_PRODUCT</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">UNKNOWN_CARD_PRODUCT</span> <span class="o">=</span> <span class="mi">7</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@CARD_PRODUCT_NOT_SUPPORTED"></a>
+                    <a name="//apple_ref/objc/Case/CARD_PRODUCT_NOT_SUPPORTED" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@CARD_PRODUCT_NOT_SUPPORTED">CARD_PRODUCT_NOT_SUPPORTED</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type card product not supported</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">CARD_PRODUCT_NOT_SUPPORTED</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">CARD_PRODUCT_NOT_SUPPORTED</span> <span class="o">=</span> <span class="mi">8</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@INCORRECT_CVV"></a>
+                    <a name="//apple_ref/objc/Case/INCORRECT_CVV" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@INCORRECT_CVV">INCORRECT_CVV</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type incorrect cvv</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">INCORRECT_CVV</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">INCORRECT_CVV</span> <span class="o">=</span> <span class="mi">9</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@CARD_ALREADY_PROVISIONED_IN_WALLET"></a>
+                    <a name="//apple_ref/objc/Case/CARD_ALREADY_PROVISIONED_IN_WALLET" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@CARD_ALREADY_PROVISIONED_IN_WALLET">CARD_ALREADY_PROVISIONED_IN_WALLET</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type card already provisioned in wallet</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">CARD_ALREADY_PROVISIONED_IN_WALLET</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">CARD_ALREADY_PROVISIONED_IN_WALLET</span> <span class="o">=</span> <span class="mi">10</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@DEVICE_NOT_ELIGIBLE"></a>
+                    <a name="//apple_ref/objc/Case/DEVICE_NOT_ELIGIBLE" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@DEVICE_NOT_ELIGIBLE">DEVICE_NOT_ELIGIBLE</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type device not eligible</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">DEVICE_NOT_ELIGIBLE</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">DEVICE_NOT_ELIGIBLE</span> <span class="o">=</span> <span class="mi">11</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@RESOURCE_NOT_FOUND"></a>
+                    <a name="//apple_ref/objc/Case/RESOURCE_NOT_FOUND" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@RESOURCE_NOT_FOUND">RESOURCE_NOT_FOUND</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type resource not found</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">RESOURCE_NOT_FOUND</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">RESOURCE_NOT_FOUND</span> <span class="o">=</span> <span class="mi">12</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@INCORRECT_AUTHENTICATION_TOKEN"></a>
+                    <a name="//apple_ref/objc/Case/INCORRECT_AUTHENTICATION_TOKEN" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@INCORRECT_AUTHENTICATION_TOKEN">INCORRECT_AUTHENTICATION_TOKEN</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type incorrect authentication token</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">INCORRECT_AUTHENTICATION_TOKEN</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">INCORRECT_AUTHENTICATION_TOKEN</span> <span class="o">=</span> <span class="mi">13</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@CARD_PROVISIONING_COUNT_EXCEEDED"></a>
+                    <a name="//apple_ref/objc/Case/CARD_PROVISIONING_COUNT_EXCEEDED" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@CARD_PROVISIONING_COUNT_EXCEEDED">CARD_PROVISIONING_COUNT_EXCEEDED</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type card provisioning count exceeded</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">CARD_PROVISIONING_COUNT_EXCEEDED</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">CARD_PROVISIONING_COUNT_EXCEEDED</span> <span class="o">=</span> <span class="mi">14</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@UNKONOWN_IDV_METHOD"></a>
+                    <a name="//apple_ref/objc/Case/UNKONOWN_IDV_METHOD" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@UNKONOWN_IDV_METHOD">UNKONOWN_IDV_METHOD</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type unknoen IDV method</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">UNKONOWN_IDV_METHOD</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">UNKONOWN_IDV_METHOD</span> <span class="o">=</span> <span class="mi">15</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@PROVISIONING_NOT_ALLOWED"></a>
+                    <a name="//apple_ref/objc/Case/PROVISIONING_NOT_ALLOWED" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@PROVISIONING_NOT_ALLOWED">PROVISIONING_NOT_ALLOWED</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type provisioning not allowed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">PROVISIONING_NOT_ALLOWED</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">PROVISIONING_NOT_ALLOWED</span> <span class="o">=</span> <span class="mi">16</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@INCORRECT_OTP"></a>
+                    <a name="//apple_ref/objc/Case/INCORRECT_OTP" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@INCORRECT_OTP">INCORRECT_OTP</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type incorrect otp</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">INCORRECT_OTP</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">INCORRECT_OTP</span> <span class="o">=</span> <span class="mi">17</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@INCORRECT_OTP_MAX_TRY_EXCEEDED"></a>
+                    <a name="//apple_ref/objc/Case/INCORRECT_OTP_MAX_TRY_EXCEEDED" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@INCORRECT_OTP_MAX_TRY_EXCEEDED">INCORRECT_OTP_MAX_TRY_EXCEEDED</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type incorrect otp maximum try exceeded</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">INCORRECT_OTP_MAX_TRY_EXCEEDED</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">INCORRECT_OTP_MAX_TRY_EXCEEDED</span> <span class="o">=</span> <span class="mi">18</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@OTP_EXPIRED"></a>
+                    <a name="//apple_ref/objc/Case/OTP_EXPIRED" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@OTP_EXPIRED">OTP_EXPIRED</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type otp expired</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">OTP_EXPIRED</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">OTP_EXPIRED</span> <span class="o">=</span> <span class="mi">19</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@IDV_METHOD_NOT_AVAILABLE"></a>
+                    <a name="//apple_ref/objc/Case/IDV_METHOD_NOT_AVAILABLE" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@IDV_METHOD_NOT_AVAILABLE">IDV_METHOD_NOT_AVAILABLE</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type idv method not available</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">IDV_METHOD_NOT_AVAILABLE</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">IDV_METHOD_NOT_AVAILABLE</span> <span class="o">=</span> <span class="mi">20</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@UNEXPECTED_INTERNAL_ERROR"></a>
+                    <a name="//apple_ref/objc/Case/UNEXPECTED_INTERNAL_ERROR" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@UNEXPECTED_INTERNAL_ERROR">UNEXPECTED_INTERNAL_ERROR</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type unexpected internal error</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">UNEXPECTED_INTERNAL_ERROR</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">UNEXPECTED_INTERNAL_ERROR</span> <span class="o">=</span> <span class="mi">21</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@EXTERNAL_SYSTEM_UNAVAILABLE"></a>
+                    <a name="//apple_ref/objc/Case/EXTERNAL_SYSTEM_UNAVAILABLE" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@EXTERNAL_SYSTEM_UNAVAILABLE">EXTERNAL_SYSTEM_UNAVAILABLE</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type external system unavailable</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">EXTERNAL_SYSTEM_UNAVAILABLE</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">EXTERNAL_SYSTEM_UNAVAILABLE</span> <span class="o">=</span> <span class="mi">22</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@UNKNOWN_WALLET_PROVIDER_ID"></a>
+                    <a name="//apple_ref/objc/Case/UNKNOWN_WALLET_PROVIDER_ID" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@UNKNOWN_WALLET_PROVIDER_ID">UNKNOWN_WALLET_PROVIDER_ID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type unknown wallet provider id</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">UNKNOWN_WALLET_PROVIDER_ID</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">UNKNOWN_WALLET_PROVIDER_ID</span> <span class="o">=</span> <span class="mi">23</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@UNKNOWN_WALLET_ID"></a>
+                    <a name="//apple_ref/objc/Case/UNKNOWN_WALLET_ID" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@UNKNOWN_WALLET_ID">UNKNOWN_WALLET_ID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type unknown wallet id</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">UNKNOWN_WALLET_ID</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">UNKNOWN_WALLET_ID</span> <span class="o">=</span> <span class="mi">24</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@UNKNOWN_DIGITAL_CARD_ID"></a>
+                    <a name="//apple_ref/objc/Case/UNKNOWN_DIGITAL_CARD_ID" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@UNKNOWN_DIGITAL_CARD_ID">UNKNOWN_DIGITAL_CARD_ID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type unknown digital card id</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">UNKNOWN_DIGITAL_CARD_ID</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">UNKNOWN_DIGITAL_CARD_ID</span> <span class="o">=</span> <span class="mi">25</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@UNKNOWN_CORRELATION_ID"></a>
+                    <a name="//apple_ref/objc/Case/UNKNOWN_CORRELATION_ID" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@UNKNOWN_CORRELATION_ID">UNKNOWN_CORRELATION_ID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type unknown correlation id</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">UNKNOWN_CORRELATION_ID</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">UNKNOWN_CORRELATION_ID</span> <span class="o">=</span> <span class="mi">26</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@CARD_STATE_DOES_NOT_ALLOW_REQUESTED_OPERATION"></a>
+                    <a name="//apple_ref/objc/Case/CARD_STATE_DOES_NOT_ALLOW_REQUESTED_OPERATION" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@CARD_STATE_DOES_NOT_ALLOW_REQUESTED_OPERATION">CARD_STATE_DOES_NOT_ALLOW_REQUESTED_OPERATION</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type card state does not allow requested operation</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">CARD_STATE_DOES_NOT_ALLOW_REQUESTED_OPERATION</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">CARD_STATE_DOES_NOT_ALLOW_REQUESTED_OPERATION</span> <span class="o">=</span> <span class="mi">27</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@OPERATION_ALREADY_ONGOING"></a>
+                    <a name="//apple_ref/objc/Case/OPERATION_ALREADY_ONGOING" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@OPERATION_ALREADY_ONGOING">OPERATION_ALREADY_ONGOING</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type operation already in progress</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">OPERATION_ALREADY_ONGOING</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">OPERATION_ALREADY_ONGOING</span> <span class="o">=</span> <span class="mi">28</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@OPERATION_FAILED"></a>
+                    <a name="//apple_ref/objc/Case/OPERATION_FAILED" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@OPERATION_FAILED">OPERATION_FAILED</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type operation failed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">OPERATION_FAILED</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">OPERATION_FAILED</span> <span class="o">=</span> <span class="mi">29</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@UNKNOWN_DEVICE_ID"></a>
+                    <a name="//apple_ref/objc/Case/UNKNOWN_DEVICE_ID" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@UNKNOWN_DEVICE_ID">UNKNOWN_DEVICE_ID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type unkwon device id</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">UNKNOWN_DEVICE_ID</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">UNKNOWN_DEVICE_ID</span> <span class="o">=</span> <span class="mi">30</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@MISSING_REQUIRED_PARAMETER"></a>
+                    <a name="//apple_ref/objc/Case/MISSING_REQUIRED_PARAMETER" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@MISSING_REQUIRED_PARAMETER">MISSING_REQUIRED_PARAMETER</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type missing required parameters</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">MISSING_REQUIRED_PARAMETER</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">MISSING_REQUIRED_PARAMETER</span> <span class="o">=</span> <span class="mi">31</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@UNKNOWN_ISSUER_ID"></a>
+                    <a name="//apple_ref/objc/Case/UNKNOWN_ISSUER_ID" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@UNKNOWN_ISSUER_ID">UNKNOWN_ISSUER_ID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type unknown issuer id</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">UNKNOWN_ISSUER_ID</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">UNKNOWN_ISSUER_ID</span> <span class="o">=</span> <span class="mi">32</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@UNKNOWN_CARD_ID"></a>
+                    <a name="//apple_ref/objc/Case/UNKNOWN_CARD_ID" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@UNKNOWN_CARD_ID">UNKNOWN_CARD_ID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type unknown card id</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">UNKNOWN_CARD_ID</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">UNKNOWN_CARD_ID</span> <span class="o">=</span> <span class="mi">33</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@NO_TNC_RESOURCE_ID"></a>
+                    <a name="//apple_ref/objc/Case/NO_TNC_RESOURCE_ID" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@NO_TNC_RESOURCE_ID">NO_TNC_RESOURCE_ID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type unknown resource id</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">NO_TNC_RESOURCE_ID</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">NO_TNC_RESOURCE_ID</span> <span class="o">=</span> <span class="mi">34</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@INVALID_TNC_DATA_TYPE"></a>
+                    <a name="//apple_ref/objc/Case/INVALID_TNC_DATA_TYPE" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@INVALID_TNC_DATA_TYPE">INVALID_TNC_DATA_TYPE</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type invalid TNC data type</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">INVALID_TNC_DATA_TYPE</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">INVALID_TNC_DATA_TYPE</span> <span class="o">=</span> <span class="mi">35</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@SECURESTORAGE_WRITE_CONFIG_DATA_ERROR"></a>
+                    <a name="//apple_ref/objc/Case/SECURESTORAGE_WRITE_CONFIG_DATA_ERROR" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@SECURESTORAGE_WRITE_CONFIG_DATA_ERROR">SECURESTORAGE_WRITE_CONFIG_DATA_ERROR</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type securestorage write error</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">SECURESTORAGE_WRITE_CONFIG_DATA_ERROR</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">SECURESTORAGE_WRITE_CONFIG_DATA_ERROR</span> <span class="o">=</span> <span class="mi">36</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@SECURESTORAGE_WIPE_ALL_ERROR"></a>
+                    <a name="//apple_ref/objc/Case/SECURESTORAGE_WIPE_ALL_ERROR" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@SECURESTORAGE_WIPE_ALL_ERROR">SECURESTORAGE_WIPE_ALL_ERROR</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type securestorage wipe error</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">SECURESTORAGE_WIPE_ALL_ERROR</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">SECURESTORAGE_WIPE_ALL_ERROR</span> <span class="o">=</span> <span class="mi">37</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@CONTEXT_MISSING_ERROR"></a>
+                    <a name="//apple_ref/objc/Case/CONTEXT_MISSING_ERROR" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@CONTEXT_MISSING_ERROR">CONTEXT_MISSING_ERROR</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type context missing</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">CONTEXT_MISSING_ERROR</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">CONTEXT_MISSING_ERROR</span> <span class="o">=</span> <span class="mi">38</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@WEB_3DS_AUTHENTICATION_FAILED"></a>
+                    <a name="//apple_ref/objc/Case/WEB_3DS_AUTHENTICATION_FAILED" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@WEB_3DS_AUTHENTICATION_FAILED">WEB_3DS_AUTHENTICATION_FAILED</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type 3DS authentication failed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">WEB_3DS_AUTHENTICATION_FAILED</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">WEB_3DS_AUTHENTICATION_FAILED</span> <span class="o">=</span> <span class="mi">39</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@WEB_3DS_DATA_ERROR"></a>
+                    <a name="//apple_ref/objc/Case/WEB_3DS_DATA_ERROR" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@WEB_3DS_DATA_ERROR">WEB_3DS_DATA_ERROR</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code of type 3DS Data error</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">WEB_3DS_DATA_ERROR</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">WEB_3DS_DATA_ERROR</span> <span class="o">=</span> <span class="mi">40</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@INVALID_CARD_DATA"></a>
+                    <a name="//apple_ref/objc/Case/INVALID_CARD_DATA" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@INVALID_CARD_DATA">INVALID_CARD_DATA</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the error code for invalid card data</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">INVALID_CARD_DATA</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">INVALID_CARD_DATA</span> <span class="o">=</span> <span class="mi">41</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@NO_CARD_META_DATA"></a>
+                    <a name="//apple_ref/objc/Case/NO_CARD_META_DATA" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@NO_CARD_META_DATA">NO_CARD_META_DATA</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is error code will be set if there is no card meta data found</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">NO_CARD_META_DATA</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">NO_CARD_META_DATA</span> <span class="o">=</span> <span class="mi">42</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@CARD_META_DATA_JSON_ERROR"></a>
+                    <a name="//apple_ref/objc/Case/CARD_META_DATA_JSON_ERROR" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@CARD_META_DATA_JSON_ERROR">CARD_META_DATA_JSON_ERROR</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is error code will be set if card meta data parsing fails</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">CARD_META_DATA_JSON_ERROR</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">CARD_META_DATA_JSON_ERROR</span> <span class="o">=</span> <span class="mi">43</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@NO_CARD_DATA"></a>
+                    <a name="//apple_ref/objc/Case/NO_CARD_DATA" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@NO_CARD_DATA">NO_CARD_DATA</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is error code will be set if card data is not available</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">NO_CARD_DATA</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">NO_CARD_DATA</span> <span class="o">=</span> <span class="mi">44</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@UNKNOWN_WALLET_APPLICATION_ID"></a>
+                    <a name="//apple_ref/objc/Case/UNKNOWN_WALLET_APPLICATION_ID" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@UNKNOWN_WALLET_APPLICATION_ID">UNKNOWN_WALLET_APPLICATION_ID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <div class="aside aside-since">
+    <p class="aside-title">Since</p>
+    Since 6.0.0
+Unknown Wallet Application ID
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">UNKNOWN_WALLET_APPLICATION_ID</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">UNKNOWN_WALLET_APPLICATION_ID</span> <span class="o">=</span> <span class="mi">45</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@INVALID_ASSET_TYPE"></a>
+                    <a name="//apple_ref/objc/Case/INVALID_ASSET_TYPE" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@INVALID_ASSET_TYPE">INVALID_ASSET_TYPE</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <div class="aside aside-since">
+    <p class="aside-title">Since</p>
+    Since 6.0.0
+Invalid Asset type
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">INVALID_ASSET_TYPE</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">INVALID_ASSET_TYPE</span> <span class="o">=</span> <span class="mi">46</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@INVALID_ASSET_VERSION"></a>
+                    <a name="//apple_ref/objc/Case/INVALID_ASSET_VERSION" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@INVALID_ASSET_VERSION">INVALID_ASSET_VERSION</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <div class="aside aside-since">
+    <p class="aside-title">Since</p>
+    Since 6.0.0
+Invalid Asset Version
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">INVALID_ASSET_VERSION</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">INVALID_ASSET_VERSION</span> <span class="o">=</span> <span class="mi">47</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MGErrorCode@ASSET_NOT_AVAILABLE"></a>
+                    <a name="//apple_ref/objc/Case/ASSET_NOT_AVAILABLE" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MGErrorCode@ASSET_NOT_AVAILABLE">ASSET_NOT_AVAILABLE</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <div class="aside aside-since">
+    <p class="aside-title">Since</p>
+    Since 6.0.0
+Asset  not avaiable
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">ASSET_NOT_AVAILABLE</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">ASSET_NOT_AVAILABLE</span> <span class="o">=</span> <span class="mi">48</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="https://thalesgroup.com" target="_blank" rel="noopener" rel="external">Thales</a>. All rights reserved. (Last updated: 2022-02-16)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="noopener" rel="external">jazzy ♪♫ v0.14.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="noopener" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

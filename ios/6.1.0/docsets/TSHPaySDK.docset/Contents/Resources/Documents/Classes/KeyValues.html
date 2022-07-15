@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>KeyValues Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Class/KeyValues" class="dashAnchor"></a>
+    <a title="KeyValues Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">TSHPaySDK 6.1.0 Docs</a></p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">TSHPaySDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        KeyValues Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Address.html">Address</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CHVerificationManager.html">CHVerificationManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CardMetaData.html">CardMetaData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConnectionConfigurationBuilder.html">ConnectionConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DeviceCVMManager.html">DeviceCVMManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DigitalizedCardAdditionalPaymentData.html">DigitalizedCardAdditionalPaymentData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DigitalizedCardManager.html">DigitalizedCardManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)DigitalizedCardProfileKeys">DigitalizedCardProfileKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InputMethod.html">InputMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IssuerData.html">IssuerData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KeyValues.html">KeyValues</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)KnownMessageCode">KnownMessageCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MGCardInfoEncryptor.html">MGCardInfoEncryptor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)MGConnectionConfiguration">MGConnectionConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)MGTransactionHistoryConfiguration">MGTransactionHistoryConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)MGWalletConfiguration">MGWalletConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MerchantIdentifier.html">MerchantIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MobileGatewayManager.html">MobileGatewayManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PaymentInputDataBuilder.html">PaymentInputDataBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PaymentServiceManager.html">PaymentServiceManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProvisioningServiceError.html">ProvisioningServiceError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProvisioningServiceManager.html">ProvisioningServiceManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProvisioningServiceMessage.html">ProvisioningServiceMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SDKController.html">SDKController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TransactionHistoryBuilder.html">TransactionHistoryBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WalletAccountData.html">WalletAccountData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WalletBuilder.html">WalletBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WalletSecureEnrollmentError.html">WalletSecureEnrollmentError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@ADDITIONAL_DATA">ADDITIONAL_DATA</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@ADDITIONAL_DATA_PAN_EXPIRY">ADDITIONAL_DATA_PAN_EXPIRY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@ADDITIONAL_DATA_PAN_LAST_4_DIGITS">ADDITIONAL_DATA_PAN_LAST_4_DIGITS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@ADDITIONAL_DATA_PRODUCT_ID">ADDITIONAL_DATA_PRODUCT_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@AvailableServiceToString">AvailableServiceToString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CPS_ERROR_CODE_DEFAULT">CPS_ERROR_CODE_DEFAULT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CVM_RESET_TIMEOUT">CVM_RESET_TIMEOUT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@DC_TOKEN_ID">DC_TOKEN_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@DUAL_TAP_TIMEOUT">DUAL_TAP_TIMEOUT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@HTTP_STATUS_CODE_DEFAULT">HTTP_STATUS_CODE_DEFAULT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@HTTP_STATUS_CODE_NO_INTERNET">HTTP_STATUS_CODE_NO_INTERNET</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MASTERCARD_APPLICATION_LIFE_CYCLE_DATA">MASTERCARD_APPLICATION_LIFE_CYCLE_DATA</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MASTERCARD_CARD_LAYOUT_DESC">MASTERCARD_CARD_LAYOUT_DESC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MASTERCARD_MCHIP_ISSUER_OPTIONS">MASTERCARD_MCHIP_ISSUER_OPTIONS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MASTERCARD_SECURITY_WORD">MASTERCARD_SECURITY_WORD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MSG_PAYMENT_INVALID_CRYPTOGRAM">MSG_PAYMENT_INVALID_CRYPTOGRAM</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MSG_PAYMENT_PIN_LOCKED">MSG_PAYMENT_PIN_LOCKED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MSG_PAYMENT_TRANSACTION_APPROVED">MSG_PAYMENT_TRANSACTION_APPROVED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MSG_PAYMENT_WRONG_PIN">MSG_PAYMENT_WRONG_PIN</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MSG_PIN_CHANGE_SUCCESSFUL">MSG_PIN_CHANGE_SUCCESSFUL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@PAYMENT_CHANNELS">PAYMENT_CHANNELS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@RAGES_ERROR_CODE_EXCEPTION">RAGES_ERROR_CODE_EXCEPTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REPERSO_TIMEOUT_ERROR">REPERSO_TIMEOUT_ERROR</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REQUEST_DELETE_CARD">REQUEST_DELETE_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REQUEST_INSTALL_CARD">REQUEST_INSTALL_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REQUEST_RENEW_CARD">REQUEST_RENEW_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REQUEST_REPLENISH_KEYS">REQUEST_REPLENISH_KEYS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REQUEST_RESUME_CARD">REQUEST_RESUME_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REQUEST_SUSPEND_CARD">REQUEST_SUSPEND_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:ThreeDSecure.h@RESULT_CODE_AUTHENTICATION_FAILED">RESULT_CODE_AUTHENTICATION_FAILED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:ThreeDSecure.h@RESULT_CODE_SESSION_NOT_FOUND">RESULT_CODE_SESSION_NOT_FOUND</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:ThreeDSecure.h@RESULT_CODE_SUCCESS">RESULT_CODE_SUCCESS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@SCHEME">SCHEME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@TAG_PAYMENT_OPTION">TAG_PAYMENT_OPTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@TAG_PAYMENT_OPTION_DATA_ENTRY">TAG_PAYMENT_OPTION_DATA_ENTRY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@TSHPaySDKVersionNumber">TSHPaySDKVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@TSHPaySDKVersionString">TSHPaySDKVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SDKReleaseInfo.h@TSH_RELEASE_BUILD">TSH_RELEASE_BUILD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SDKReleaseInfo.h@TSH_RELEASE_QUALIFIER">TSH_RELEASE_QUALIFIER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SDKReleaseInfo.h@TSH_RELEASE_VERSION">TSH_RELEASE_VERSION</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AccessControlFlag.html">AccessControlFlag</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AppCodeStatus.html">AppCodeStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AvailableServices.html">AvailableServices</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CHCodeInputErrorCode.html">CHCodeInputErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CHVerificationMethod.html">CHVerificationMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CdcvmSupported.html">CdcvmSupported</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CryptogramDataType.html">CryptogramDataType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DeviceEligibility.html">DeviceEligibility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DigitalizedCardErrorCodes.html">DigitalizedCardErrorCodes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DigitalizedCardState.html">DigitalizedCardState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EnrollmentStatus.html">EnrollmentStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GetAccessTokenMode.html">GetAccessTokenMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/InputMethodEnum.html">InputMethodEnum</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/KnownCpsErrorCodes.html">KnownCpsErrorCodes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MGErrorCode.html">MGErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MGSDKConfigurationState.html">MGSDKConfigurationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MessageClassification.html">MessageClassification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Outcome.html">Outcome</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PaymentServiceErrorCode.html">PaymentServiceErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PaymentType.html">PaymentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PendingCardActivationState.html">PendingCardActivationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ProvisioningServiceCodeType.html">ProvisioningServiceCodeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ProvisioningServiceErrorCodes.html">ProvisioningServiceErrorCodes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TerminalTechnology.html">TerminalTechnology</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TerminalType.html">TerminalType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TransactionConditions.html">TransactionConditions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TransactionPurpose.html">TransactionPurpose</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TransactionRange.html">TransactionRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TransactionType.html">TransactionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TwoTapSupported.html">TwoTapSupported</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UserActionOnPoi.html">UserActionOnPoi</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/WalletSecureEnrollmentErrorCodes.html">WalletSecureEnrollmentErrorCodes</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AccessTokenDelegate.html">AccessTokenDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BusinessService.html">BusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CHCodeInput.html">CHCodeInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CHVerifier.html">CHVerifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CVMResetTimeoutDelegate.html">CVMResetTimeoutDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CardArtSize.html">CardArtSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CardProduct.html">CardProduct</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DigitalizedCard.html">DigitalizedCard</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DigitalizedCardDetails.html">DigitalizedCardDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DigitalizedCardStatus.html">DigitalizedCardStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EnrollingBusinessService.html">EnrollingBusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EnrollingServiceDelegate.html">EnrollingServiceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IDVMethod.html">IDVMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IDVMethodSelector.html">IDVMethodSelector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MGCardEnrollmentService.html">MGCardEnrollmentService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MGCardLifeCycleManager.html">MGCardLifeCycleManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MGDigitizationDelegate.html">MGDigitizationDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MGTransactionHistoryService.html">MGTransactionHistoryService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MGTransactionRecord.html">MGTransactionRecord</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MasterCardTransactionInfo.html">MasterCardTransactionInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MastercardTerminalInfo.html">MastercardTerminalInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MastercardTransactionContext.html">MastercardTransactionContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MobileGatewayError.html">MobileGatewayError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentBusinessService.html">PaymentBusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentInputData.html">PaymentInputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentService.html">PaymentService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentServiceDelegate.html">PaymentServiceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PendingCardActivation.html">PendingCardActivation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ProvisioningBusinessService.html">ProvisioningBusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PushServiceDelegate.html">PushServiceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/QRCodeData.html">QRCodeData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/RemotePaymentOutputData.html">RemotePaymentOutputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SDKControllerDelegate.html">SDKControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SecureCodeInputer.html">SecureCodeInputer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TermsAndConditionSession.html">TermsAndConditionSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TermsAndConditions.html">TermsAndConditions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ThreeDSecure.html">ThreeDSecure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TransactionContext.html">TransactionContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/WalletSecureEnrollmentBusinessService.html">WalletSecureEnrollmentBusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/WalletSecureEnrollmentDelegate.html">WalletSecureEnrollmentDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CPSCommon.h@T@BoolResultHandler">BoolResultHandler</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>KeyValues</h1>
+              <div class="declaration">
+                <div class="language">
+                  <p class="aside-title">Objective-C</p>
+                  <pre class="highlight objective_c"><code>
+<span class="k">@interface</span> <span class="nc">KeyValues</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                </div>
+                <div class="language">
+                  <p class="aside-title">Swift</p>
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">KeyValues</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Key values indicates the information to be update to the server</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)KeyValues(im)setKey:"></a>
+                    <a name="//apple_ref/objc/Method/-setKey:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)KeyValues(im)setKey:">-setKey:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the key of this object.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setKey</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">rcvKey</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setKey</span><span class="p">(</span><span class="n">_</span> <span class="nv">rcvKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>rcvKey</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>of this object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)KeyValues(im)setValue:"></a>
+                    <a name="//apple_ref/objc/Method/-setValue:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)KeyValues(im)setValue:">-setValue:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the value of this object.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setValue</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">rcvValue</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setValue</span><span class="p">(</span><span class="n">_</span> <span class="nv">rcvValue</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>rcvValue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>of this object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)KeyValues(im)getKey"></a>
+                    <a name="//apple_ref/objc/Method/-getKey" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)KeyValues(im)getKey">-getKey</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Fetch the key of this object</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="n">getKey</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getKey</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the key of this object</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)KeyValues(im)getValue"></a>
+                    <a name="//apple_ref/objc/Method/-getValue" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)KeyValues(im)getValue">-getValue</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Fetch the value of this object</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="n">getValue</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getValue</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the value of this object</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="https://thalesgroup.com" target="_blank" rel="noopener" rel="external">Thales</a>. All rights reserved. (Last updated: 2022-02-16)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="noopener" rel="external">jazzy ♪♫ v0.14.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="noopener" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
