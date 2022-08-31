@@ -1,0 +1,166 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/MerchantIdentifier.h",
+      "line": 34,
+      "symbol": "MerchantIdentifier.clientId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/MerchantIdentifier.h",
+      "line": 36,
+      "symbol": "MerchantIdentifier.acquireId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/MerchantIdentifier.h",
+      "line": 38,
+      "symbol": "MerchantIdentifier.merchantId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/MerchantIdentifier.h",
+      "line": 40,
+      "symbol": "MerchantIdentifier.applicationUrl",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/MerchantIdentifier.h",
+      "line": 42,
+      "symbol": "MerchantIdentifier.merchantName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/SecureLogConstants.h",
+      "line": 28,
+      "symbol": "SecureLogLevel",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/SecureLogConstants.h",
+      "line": 28,
+      "symbol": "SecureLogLevel",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/TerminalType.h",
+      "line": 36,
+      "symbol": "TerminalType.BANK_ATTENDED_ONLINE",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/TerminalType.h",
+      "line": 38,
+      "symbol": "TerminalType.BANK_ATTENDED_OFFLINE_ONLINE",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/TerminalType.h",
+      "line": 40,
+      "symbol": "TerminalType.BANK_ATTENDED_OFFLINE",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/TerminalType.h",
+      "line": 42,
+      "symbol": "TerminalType.BANK_UNATTENDED_ONLINE",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/TerminalType.h",
+      "line": 44,
+      "symbol": "TerminalType.BANK_UNATTENDED_OFFLINE_ONLINE",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/TerminalType.h",
+      "line": 46,
+      "symbol": "TerminalType.BANK_UNATTENDED_OFFLINE",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/TerminalType.h",
+      "line": 48,
+      "symbol": "TerminalType.MERCHANT_ATTENDED_ONLINE",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/TerminalType.h",
+      "line": 50,
+      "symbol": "TerminalType.MERCHANT_ATTENDED_OFFLINE_ONLINE",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/TerminalType.h",
+      "line": 52,
+      "symbol": "TerminalType.MERCHANT_ATTENDED_OFFLINE",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/TerminalType.h",
+      "line": 54,
+      "symbol": "TerminalType.MERCHANT_UNATTENDED_ONLINE",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/TerminalType.h",
+      "line": 56,
+      "symbol": "TerminalType.MERCHANT_UNATTENDED_OFFLINE_ONLINE",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/TerminalType.h",
+      "line": 58,
+      "symbol": "TerminalType.MERCHANT_UNATTENDED_OFFLINE",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/TerminalType.h",
+      "line": 60,
+      "symbol": "TerminalType.CARDHOLDER_OPERATED_ONLINE",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/TerminalType.h",
+      "line": 62,
+      "symbol": "TerminalType.CARDHOLDER_OPERATED_OFFLINE_ONLINE",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/TerminalType.h",
+      "line": 64,
+      "symbol": "TerminalType.CARDHOLDER_OPERATED_OFFLINE",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins/buildscript/Build/Products/Release-Zcrambler-iphoneos/TSHPaySDK.framework/Headers/TerminalType.h",
+      "line": 66,
+      "symbol": "TerminalType.TYPE_UNKNOWN",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/idpmobile/jenkins/workspace/TSHPay_CD_iOS/dev/ios/buildscript/jenkins"
+}
