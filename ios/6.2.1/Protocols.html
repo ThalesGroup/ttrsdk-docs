@@ -1,0 +1,2028 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Protocols  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Section/Protocols" class="dashAnchor"></a>
+    <a title="Protocols  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">TSHPaySDK 6.2.1 Docs</a></p>
+        <div class="header-right">
+          <form role="search" action="search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">TSHPaySDK Reference</a>
+        <img id="carat" src="img/carat.png" alt=""/>
+        Protocols  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/Address.html">Address</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CHVerificationManager.html">CHVerificationManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CardMetaData.html">CardMetaData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ConnectionConfigurationBuilder.html">ConnectionConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DeviceCVMManager.html">DeviceCVMManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DigitalizedCardAdditionalPaymentData.html">DigitalizedCardAdditionalPaymentData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DigitalizedCardManager.html">DigitalizedCardManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes.html#/c:objc(cs)DigitalizedCardProfileKeys">DigitalizedCardProfileKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/InputMethod.html">InputMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/IssuerData.html">IssuerData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/KeyValues.html">KeyValues</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes.html#/c:objc(cs)KnownMessageCode">KnownMessageCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MGCardInfoEncryptor.html">MGCardInfoEncryptor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes.html#/c:objc(cs)MGConnectionConfiguration">MGConnectionConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes.html#/c:objc(cs)MGTransactionHistoryConfiguration">MGTransactionHistoryConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes.html#/c:objc(cs)MGWalletConfiguration">MGWalletConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MerchantIdentifier.html">MerchantIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MobileGatewayManager.html">MobileGatewayManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/PaymentInputDataBuilder.html">PaymentInputDataBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/PaymentServiceManager.html">PaymentServiceManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ProvisioningServiceError.html">ProvisioningServiceError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ProvisioningServiceManager.html">ProvisioningServiceManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ProvisioningServiceMessage.html">ProvisioningServiceMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/SDKController.html">SDKController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/TransactionHistoryBuilder.html">TransactionHistoryBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/WalletAccountData.html">WalletAccountData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/WalletBuilder.html">WalletBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/WalletSecureEnrollmentError.html">WalletSecureEnrollmentError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@ADDITIONAL_DATA">ADDITIONAL_DATA</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@ADDITIONAL_DATA_PAN_EXPIRY">ADDITIONAL_DATA_PAN_EXPIRY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@ADDITIONAL_DATA_PAN_LAST_4_DIGITS">ADDITIONAL_DATA_PAN_LAST_4_DIGITS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@ADDITIONAL_DATA_PRODUCT_ID">ADDITIONAL_DATA_PRODUCT_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@AvailableServiceToString">AvailableServiceToString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CPS_ERROR_CODE_DEFAULT">CPS_ERROR_CODE_DEFAULT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CVM_RESET_TIMEOUT">CVM_RESET_TIMEOUT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@DC_TOKEN_ID">DC_TOKEN_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@DUAL_TAP_TIMEOUT">DUAL_TAP_TIMEOUT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@HTTP_STATUS_CODE_DEFAULT">HTTP_STATUS_CODE_DEFAULT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@HTTP_STATUS_CODE_NO_INTERNET">HTTP_STATUS_CODE_NO_INTERNET</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@MASTERCARD_APPLICATION_LIFE_CYCLE_DATA">MASTERCARD_APPLICATION_LIFE_CYCLE_DATA</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@MASTERCARD_CARD_LAYOUT_DESC">MASTERCARD_CARD_LAYOUT_DESC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@MASTERCARD_MCHIP_ISSUER_OPTIONS">MASTERCARD_MCHIP_ISSUER_OPTIONS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@MASTERCARD_SECURITY_WORD">MASTERCARD_SECURITY_WORD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@MSG_PAYMENT_INVALID_CRYPTOGRAM">MSG_PAYMENT_INVALID_CRYPTOGRAM</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@MSG_PAYMENT_PIN_LOCKED">MSG_PAYMENT_PIN_LOCKED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@MSG_PAYMENT_TRANSACTION_APPROVED">MSG_PAYMENT_TRANSACTION_APPROVED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@MSG_PAYMENT_WRONG_PIN">MSG_PAYMENT_WRONG_PIN</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@MSG_PIN_CHANGE_SUCCESSFUL">MSG_PIN_CHANGE_SUCCESSFUL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@PAYMENT_CHANNELS">PAYMENT_CHANNELS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@RAGES_ERROR_CODE_EXCEPTION">RAGES_ERROR_CODE_EXCEPTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@REPERSO_TIMEOUT_ERROR">REPERSO_TIMEOUT_ERROR</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@REQUEST_DELETE_CARD">REQUEST_DELETE_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@REQUEST_INSTALL_CARD">REQUEST_INSTALL_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@REQUEST_RENEW_CARD">REQUEST_RENEW_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@REQUEST_REPLENISH_KEYS">REQUEST_REPLENISH_KEYS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@REQUEST_RESUME_CARD">REQUEST_RESUME_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@REQUEST_SUSPEND_CARD">REQUEST_SUSPEND_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:ThreeDSecure.h@RESULT_CODE_AUTHENTICATION_FAILED">RESULT_CODE_AUTHENTICATION_FAILED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:ThreeDSecure.h@RESULT_CODE_SESSION_NOT_FOUND">RESULT_CODE_SESSION_NOT_FOUND</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:ThreeDSecure.h@RESULT_CODE_SUCCESS">RESULT_CODE_SUCCESS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@SCHEME">SCHEME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@SECURELOG_DEFAULT_DIRECTORY">SECURELOG_DEFAULT_DIRECTORY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@SECURELOG_DEFAULT_FILEID">SECURELOG_DEFAULT_FILEID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@SECURELOG_DEFAULT_LEVEL">SECURELOG_DEFAULT_LEVEL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@SECURELOG_DEFAULT_MAX_FILE_COUNT">SECURELOG_DEFAULT_MAX_FILE_COUNT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@SECURELOG_DEFAULT_MAX_FILE_SIZE">SECURELOG_DEFAULT_MAX_FILE_SIZE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@TAG_PAYMENT_OPTION">TAG_PAYMENT_OPTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@TAG_PAYMENT_OPTION_DATA_ENTRY">TAG_PAYMENT_OPTION_DATA_ENTRY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@TSHPaySDKVersionNumber">TSHPaySDKVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@TSHPaySDKVersionString">TSHPaySDKVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:SDKReleaseInfo.h@TSH_RELEASE_BUILD">TSH_RELEASE_BUILD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:SDKReleaseInfo.h@TSH_RELEASE_QUALIFIER">TSH_RELEASE_QUALIFIER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:SDKReleaseInfo.h@TSH_RELEASE_VERSION">TSH_RELEASE_VERSION</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/AccessControlFlag.html">AccessControlFlag</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/AppCodeStatus.html">AppCodeStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/AvailableServices.html">AvailableServices</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/CHCodeInputErrorCode.html">CHCodeInputErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/CHVerificationMethod.html">CHVerificationMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/CdcvmSupported.html">CdcvmSupported</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/CryptogramDataType.html">CryptogramDataType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/DeviceEligibility.html">DeviceEligibility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/DigitalizedCardErrorCodes.html">DigitalizedCardErrorCodes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/DigitalizedCardState.html">DigitalizedCardState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/EnrollmentStatus.html">EnrollmentStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/GetAccessTokenMode.html">GetAccessTokenMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/InputMethodEnum.html">InputMethodEnum</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/KnownCpsErrorCodes.html">KnownCpsErrorCodes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/MGErrorCode.html">MGErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/MGSDKConfigurationState.html">MGSDKConfigurationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/MessageClassification.html">MessageClassification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/Outcome.html">Outcome</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/PaymentServiceErrorCode.html">PaymentServiceErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/PaymentType.html">PaymentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/PendingCardActivationState.html">PendingCardActivationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/ProvisioningServiceCodeType.html">ProvisioningServiceCodeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/ProvisioningServiceErrorCodes.html">ProvisioningServiceErrorCodes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums.html#/c:@E@SecureLogLevel">SecureLogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/TerminalTechnology.html">TerminalTechnology</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/TerminalType.html">TerminalType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/TransactionConditions.html">TransactionConditions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/TransactionPurpose.html">TransactionPurpose</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/TransactionRange.html">TransactionRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/TransactionType.html">TransactionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/TwoTapSupported.html">TwoTapSupported</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/UserActionOnPoi.html">UserActionOnPoi</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/WalletSecureEnrollmentErrorCodes.html">WalletSecureEnrollmentErrorCodes</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/AccessTokenDelegate.html">AccessTokenDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BusinessService.html">BusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CHCodeInput.html">CHCodeInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CHVerifier.html">CHVerifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CVMResetTimeoutDelegate.html">CVMResetTimeoutDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CardArtSize.html">CardArtSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CardProduct.html">CardProduct</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/DigitalizedCard.html">DigitalizedCard</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/DigitalizedCardDetails.html">DigitalizedCardDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/DigitalizedCardStatus.html">DigitalizedCardStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/EnrollingBusinessService.html">EnrollingBusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/EnrollingServiceDelegate.html">EnrollingServiceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/IDVMethod.html">IDVMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/IDVMethodSelector.html">IDVMethodSelector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/MGCardEnrollmentService.html">MGCardEnrollmentService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/MGCardLifeCycleManager.html">MGCardLifeCycleManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/MGDigitizationDelegate.html">MGDigitizationDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/MGTransactionHistoryService.html">MGTransactionHistoryService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/MGTransactionRecord.html">MGTransactionRecord</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/MasterCardTransactionInfo.html">MasterCardTransactionInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/MastercardTerminalInfo.html">MastercardTerminalInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/MastercardTransactionContext.html">MastercardTransactionContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/MobileGatewayError.html">MobileGatewayError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/PaymentBusinessService.html">PaymentBusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/PaymentInputData.html">PaymentInputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/PaymentService.html">PaymentService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/PaymentServiceDelegate.html">PaymentServiceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/PendingCardActivation.html">PendingCardActivation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ProvisioningBusinessService.html">ProvisioningBusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/PushServiceDelegate.html">PushServiceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/QRCodeData.html">QRCodeData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/RemotePaymentOutputData.html">RemotePaymentOutputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SDKControllerDelegate.html">SDKControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SecureCodeInputer.html">SecureCodeInputer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/TermsAndConditionSession.html">TermsAndConditionSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/TermsAndConditions.html">TermsAndConditions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ThreeDSecure.html">ThreeDSecure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/TransactionContext.html">TransactionContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/WalletSecureEnrollmentBusinessService.html">WalletSecureEnrollmentBusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/WalletSecureEnrollmentDelegate.html">WalletSecureEnrollmentDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Type%20Definitions.html#/c:CPSCommon.h@T@BoolResultHandler">BoolResultHandler</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Protocols</h1>
+            <p>The following protocols are available globally.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)AccessTokenDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/AccessTokenDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)AccessTokenDelegate">AccessTokenDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This interface will allow the mobile wallet to get the
+state of the get access token process</p>
+
+                        <a href="Protocols/AccessTokenDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">AccessTokenDelegate</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">AccessTokenDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BusinessService"></a>
+                    <a name="//apple_ref/objc/Protocol/BusinessService" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BusinessService">BusinessService</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This interface contains the BusinessService Methods used to initialize and reset the SDK with different services of the SDK namely:</p>
+
+<ol>
+<li>DigitalCardManagerService</li>
+<li>ProvisioningService</li>
+<li>EnrollmentService</li>
+<li>PaymentService</li>
+<li>WalletSecureEnrollmentService</li>
+</ol>
+
+                        <a href="Protocols/BusinessService.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BusinessService</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">BusinessService</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CHCodeInput"></a>
+                    <a name="//apple_ref/objc/Protocol/CHCodeInput" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CHCodeInput">CHCodeInput</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Protocol to handle Card Holder Code input. <br>
+There are three different ways to input the pin through this component. <br>
+@discussion
+Input PIN through NSString <br>
+Input PIN SecureCodeInputer <br></p>
+
+                        <a href="Protocols/CHCodeInput.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">CHCodeInput</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CHCodeInput</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CHVerifier"></a>
+                    <a name="//apple_ref/objc/Protocol/CHVerifier" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CHVerifier">CHVerifier</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Protocol having functionality to verify card holder using availabl device security.</p>
+
+                        <a href="Protocols/CHVerifier.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">CHVerifier</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CHVerifier</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CVMResetTimeoutDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/CVMResetTimeoutDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CVMResetTimeoutDelegate">CVMResetTimeoutDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Interface to receive the count down event after the CardHolder verification
+ input has been entered. <br/></p>
+
+<p>For security reason, the CardHolder verification input should not stay too
+ long in memory. The timeout duration is mandated in the card profile and the
+ credentials shall be invalidated (wiped away from memory) after the timeout
+ event has kicked in.</p>
+
+                        <a href="Protocols/CVMResetTimeoutDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">CVMResetTimeoutDelegate</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CVMResetTimeoutDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CardArtSize"></a>
+                    <a name="//apple_ref/objc/Protocol/CardArtSize" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CardArtSize">CardArtSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>CardArtSize provides size information of the Card arts.</p>
+
+                        <a href="Protocols/CardArtSize.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">CardArtSize</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CardArtSize</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CardProduct"></a>
+                    <a name="//apple_ref/objc/Protocol/CardProduct" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CardProduct">CardProduct</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>CardProduct provides the information of a particular card product.</p>
+
+                        <a href="Protocols/CardProduct.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">CardProduct</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CardProduct</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)DigitalizedCard"></a>
+                    <a name="//apple_ref/objc/Protocol/DigitalizedCard" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)DigitalizedCard">DigitalizedCard</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>DigitalizedCard protocol
+@discussion This protocol describes the digitalized card.
+            Use cases for this component include:</p>
+
+<ul>
+<li>Determining if this particular digitalized card is the default card for payment.</li>
+<li>If this is not the default card for payment, set this digitalized card as the default payment card.</li>
+<li>Retrieve specific card details.</li>
+<li>Retrieve the tokenized card id associated with this card.</li>
+<li>Retrieve the current state of the card.</li>
+</ul>
+
+                        <a href="Protocols/DigitalizedCard.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">DigitalizedCard</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">DigitalizedCard</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)DigitalizedCardDetails"></a>
+                    <a name="//apple_ref/objc/Protocol/DigitalizedCardDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)DigitalizedCardDetails">DigitalizedCardDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>DigitalizedCardDetails
+@discussion  Protocol that will be used to retrieve details about the card that has been
+provisioned. It is through this protocol where the user of the SDK is able
+to retrieve the card information in the card profile.</p>
+
+                        <a href="Protocols/DigitalizedCardDetails.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">DigitalizedCardDetails</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">DigitalizedCardDetails</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)DigitalizedCardStatus"></a>
+                    <a name="//apple_ref/objc/Protocol/DigitalizedCardStatus" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)DigitalizedCardStatus">DigitalizedCardStatus</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>DigitalizedCardStatus
+@discussion This interface defines the current state of the Digitalized Card. This
+            interface allows the user of this SDK to retrieve the following information
+           from the DigitalizedCard:</p>
+
+<ul>
+<li>The card state to indicate if the card is ACTIVE or SUSPENDED DigitalizedCardState</li>
+<li>The remaining number of credentials - to indicate how many more times the  wallet is able to perform a transaction</li>
+<li>If the card needs replenishment - Each card has it&rsquo;s own threshold for
+the minimum number of credentials remaining in storage. If the number of
+remaining credentials reaches this threshold, then the card needs to be
+replenished.</li>
+</ul>
+
+                        <a href="Protocols/DigitalizedCardStatus.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">DigitalizedCardStatus</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">DigitalizedCardStatus</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)EnrollingBusinessService"></a>
+                    <a name="//apple_ref/objc/Protocol/EnrollingBusinessService" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)EnrollingBusinessService">EnrollingBusinessService</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This service is responsible for enrolling the end-user to both the ASM and the CPS. Without successfully completing the enrollment, the end user will not be able to perform any transaction. <br />
+There are two use cases for the enrollment.</p>
+
+<ol>
+<li>The end user is not yet enrolled.</li>
+<li>The end user started enrollment previously, but did not finish. In this use case, the SDK continues where the previous enrollment has left off.</li>
+</ol>
+
+<p>The EnrollingBusinessService provides two methods to satisfy both use cases. But, the mobile wallet is expected to first call a helper method, isEnrolled, to understand the current enrolling state of the SDK. <br />
+isEnrolled returns three possible values to help the mobile wallet understand the current EnrollmentStatus:</p>
+
+<ul>
+<li> ENROLLMENT_NEEDED - This implies that no enrollment has been performed. This will be returned for the first use case. In this scenario, the mobile wallet is expected to invoke [enroll: userId: userLanguange: delegate:] </li>
+<li>ENROLLMENT_IN_PROGRESS - This implies that an enrollment has been performed before, but it did not finish. This is the second use case. In this scenario, the mobile wallet is expected to invoke continueEnrollment: :delegate:</li>
+<li>ENROLLMENT_COMPLETE - This implies that an enrollment has been previously execute, and completed successfully. In this scenario, the mobile wallet is no longer expected to perform enrollment.</li>
+</ul>
+
+                        <a href="Protocols/EnrollingBusinessService.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">EnrollingBusinessService</span> <span class="o">&lt;</span><span class="n"><a href="Protocols/BusinessService.html">BusinessService</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">EnrollingBusinessService</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)EnrollingServiceDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/EnrollingServiceDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)EnrollingServiceDelegate">EnrollingServiceDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This will allow the mobile wallet to understand the current stage of the enrollment process.</p>
+
+                        <a href="Protocols/EnrollingServiceDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">EnrollingServiceDelegate</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">EnrollingServiceDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)IDVMethod"></a>
+                    <a name="//apple_ref/objc/Protocol/IDVMethod" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)IDVMethod">IDVMethod</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>IDVMethod supported by the Card Enrollment.</p>
+
+                        <a href="Protocols/IDVMethod.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">IDVMethod</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">IDVMethod</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)IDVMethodSelector"></a>
+                    <a name="//apple_ref/objc/Protocol/IDVMethodSelector" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)IDVMethodSelector">IDVMethodSelector</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>IDVMethodSelector provides a way to select different IDVMethods supported for the Card Activation.</p>
+
+                        <a href="Protocols/IDVMethodSelector.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">IDVMethodSelector</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">IDVMethodSelector</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)MGCardEnrollmentService"></a>
+                    <a name="//apple_ref/objc/Protocol/MGCardEnrollmentService" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)MGCardEnrollmentService">MGCardEnrollmentService</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The card enrollment service is responsible for card digitization process. The Card Enrollment Flows shall describe the use-cases that can be
+applied in accordance to the class diagram shown below. If in case wherein a card enrollment is interrupted in before completion, this module is
+also used to retrieve the pending card enrollments and continue further.</p>
+
+                        <a href="Protocols/MGCardEnrollmentService.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">MGCardEnrollmentService</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">MGCardEnrollmentService</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)MGCardLifeCycleManager"></a>
+                    <a name="//apple_ref/objc/Protocol/MGCardLifeCycleManager" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)MGCardLifeCycleManager">MGCardLifeCycleManager</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The card life cycle manager component as what the name suggests manages the life cycle (e.g. suspend, resume, delete) of a digitized card. All
+events will be dispatched via a CompletionBlock. After successful request, the CPS will send a command to the CPS SDK to fulfill the request.</p>
+
+                        <a href="Protocols/MGCardLifeCycleManager.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">MGCardLifeCycleManager</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">MGCardLifeCycleManager</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)MGDigitizationDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/MGDigitizationDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)MGDigitizationDelegate">MGDigitizationDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Delegate for the digitize card events.</p>
+
+                        <a href="Protocols/MGDigitizationDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">MGDigitizationDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">MGDigitizationDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)MGTransactionHistoryService"></a>
+                    <a name="//apple_ref/objc/Protocol/MGTransactionHistoryService" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)MGTransactionHistoryService">MGTransactionHistoryService</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>MGTransactionHistoryService provides API to request transaction history performed on provided card.
+Same API can be used for Transaction Notification as MPA need to pass digitalCardId and timestamp
+received from push notification to query for notification detail.</p>
+
+                        <a href="Protocols/MGTransactionHistoryService.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">MGTransactionHistoryService</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">MGTransactionHistoryService</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)MGTransactionRecord"></a>
+                    <a name="//apple_ref/objc/Protocol/MGTransactionRecord" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)MGTransactionRecord">MGTransactionRecord</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Interface containing data related to any transaction</p>
+
+                        <a href="Protocols/MGTransactionRecord.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">MGTransactionRecord</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">MGTransactionRecord</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)MasterCardTransactionInfo"></a>
+                    <a name="//apple_ref/objc/Protocol/MasterCardTransactionInfo" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)MasterCardTransactionInfo">MasterCardTransactionInfo</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>It contains the different properties for mastercard transaction info. </p>
+<div class="aside aside-since">
+    <p class="aside-title">Since</p>
+    6.1.0
+
+</div>
+
+                        <a href="Protocols/MasterCardTransactionInfo.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">MasterCardTransactionInfo</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">MasterCardTransactionInfo</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)MastercardTerminalInfo"></a>
+                    <a name="//apple_ref/objc/Protocol/MastercardTerminalInfo" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)MastercardTerminalInfo">MastercardTerminalInfo</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This interface contains the terminal Information for Master Card.</p>
+<div class="aside aside-since">
+    <p class="aside-title">Since</p>
+    6.1.0
+
+</div>
+
+                        <a href="Protocols/MastercardTerminalInfo.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">MastercardTerminalInfo</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">MastercardTerminalInfo</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)MastercardTransactionContext"></a>
+                    <a name="//apple_ref/objc/Protocol/MastercardTransactionContext" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)MastercardTransactionContext">MastercardTransactionContext</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <div class="aside aside-since">
+    <p class="aside-title">Since</p>
+    Since 6.1.0
+Retrieve MastercardTransactionContext
+
+</div>
+
+                        <a href="Protocols/MastercardTransactionContext.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">MastercardTransactionContext</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">MastercardTransactionContext</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)MobileGatewayError"></a>
+                    <a name="//apple_ref/objc/Protocol/MobileGatewayError" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)MobileGatewayError">MobileGatewayError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The MobileGatewayError provides the details of the error occurred during a card operation.</p>
+
+                        <a href="Protocols/MobileGatewayError.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">MobileGatewayError</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">MobileGatewayError</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PaymentBusinessService"></a>
+                    <a name="//apple_ref/objc/Protocol/PaymentBusinessService" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PaymentBusinessService">PaymentBusinessService</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initiates the Payment business service to perform payment related commands.</p>
+
+                        <a href="Protocols/PaymentBusinessService.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">PaymentBusinessService</span> <span class="o">&lt;</span><span class="n"><a href="Protocols/BusinessService.html">BusinessService</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">PaymentBusinessService</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PaymentInputData"></a>
+                    <a name="//apple_ref/objc/Protocol/PaymentInputData" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PaymentInputData">PaymentInputData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>PaymentInputData for QR code and DSRP remote payment</p>
+<div class="aside aside-since">
+    <p class="aside-title">Since</p>
+    6.1.0
+
+</div>
+
+                        <a href="Protocols/PaymentInputData.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">PaymentInputData</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">PaymentInputData</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PaymentService"></a>
+                    <a name="//apple_ref/objc/Protocol/PaymentService" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PaymentService">PaymentService</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>PaymentService is an engine that enables the flow and contains
+execution information for a payment transaction. Some of the control flows
+such as activation and deactivation, however, are managed internally by the
+PaymentBusinessService rather. A typical flow would consist of the
+following steps: <br/></p>
+
+<ul>
+ 
+<li>Activate a digitalized card for transaction PaymentBusinessService activate:
+</li>
+ 
+<li>Prepare transaction: This consists a few actions to be done after the UI
+application receive call-back PaymentServiceDelegater# onPaymentServiceActivated:
+so as to put the digitalized card in the ready state for transaction to take
+place, in the order of following:
+<ul>
+<li>Customize payment flow: In some deployment context, the End-User may be
+allowed to select a few transaction options, such as to use the card as debit
+or credit card. These features are not supported by the SDK inherently as
+they can be different between issuers. At the solution level, the SDK
+provides access to additional data coming from issuer to cater for these
+custom flows via API getAdditionalData: With this API, the UI
+application should be able to show different options to End-User or to make
+decision on its own. Then the application can call
+setData: to &ldquo;temporarily&rdquo; alter some of the allowed
+fields in the transaction details, according to what has been specified by
+the issuer to implement the custom flows. Note that the changes only take
+effect for the current transaction and will not be persisted.</li>
+<li>
+SDK will request CardHolder verification: Depending on the device verification will be requested.
+This object will be returned in the call-back onPaymentServiceActivated:
+Once the UI application has fulfilled the verification step,
+the verifier object will automatically notify the PaymentService to
+be ready for the next step. If this step is found to be not needed, the SDK
+will be automatically put in the ready state.</li>
+<li>
+Application has to set cvmResetTimeoutDelegate in PaymentService in order to get countdown. SDK internally will wiat internally until cvmTimeout sent in onPaymentServiceActivated: for the verification. After this timout, PaymentService will automatically be deactivated.</li>
+</ul>
+
+<p></li></p>
+
+<p><li>Finish transaction: The transaction may finish normally, call-back
+PaymentServiceDelegate onDataReadyForPayment:data conrtext:(TransactionContext), or
+with some error, call-back
+PaymentServiceDelegate onError:(TransactionContext) errorCode:(PaymentServiceErrorCode).
+The TransactionContext contains information about the transaction
+that is worth to be displayed to End-User. It&rsquo;s important to understand that
+from the perspective of the SDK, the result of the transaction is unknown.
+Whether the transaction is approved by the issuer can only be known by the
+validation server. The application will receive a push notification some time
+later that indicates the result of the transaction.</li>
+</ul></p>
+
+                        <a href="Protocols/PaymentService.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">PaymentService</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">PaymentService</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PaymentServiceDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/PaymentServiceDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PaymentServiceDelegate">PaymentServiceDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Delegate for the transaction.</p>
+
+                        <a href="Protocols/PaymentServiceDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">PaymentServiceDelegate</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">PaymentServiceDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PendingCardActivation"></a>
+                    <a name="//apple_ref/objc/Protocol/PendingCardActivation" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PendingCardActivation">PendingCardActivation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>PendingCardActivation indicates the card which are previously interrupted during activation.</p>
+
+                        <a href="Protocols/PendingCardActivation.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">PendingCardActivation</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">PendingCardActivation</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)ProvisioningBusinessService"></a>
+                    <a name="//apple_ref/objc/Protocol/ProvisioningBusinessService" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)ProvisioningBusinessService">ProvisioningBusinessService</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This service is responsible to communicate to CPS and entertain the requests
+ received from CPS via push notifications. Cards profiles and card credentials
+ are received in the application through this service. <br /></p>
+
+<p><br />
+ There are two modes of operations
+ <ul>
+ <li>Push mode: CPS will send the push to perform actions
+ <li>Pull mode: Application needs to do a operation, so application will ask
+ to CPS to send the push payload
+ </ul></p>
+
+                        <a href="Protocols/ProvisioningBusinessService.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">ProvisioningBusinessService</span> <span class="o">&lt;</span><span class="n"><a href="Protocols/BusinessService.html">BusinessService</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">ProvisioningBusinessService</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PushServiceDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/PushServiceDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PushServiceDelegate">PushServiceDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Protocol to handle callbacks related to push notifications.</p>
+
+                        <a href="Protocols/PushServiceDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">PushServiceDelegate</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">PushServiceDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)QRCodeData"></a>
+                    <a name="//apple_ref/objc/Protocol/QRCodeData" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)QRCodeData">QRCodeData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>It contains the different properties of the QRCodeData. <br /></p>
+
+                        <a href="Protocols/QRCodeData.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">QRCodeData</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">QRCodeData</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)RemotePaymentOutputData"></a>
+                    <a name="//apple_ref/objc/Protocol/RemotePaymentOutputData" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)RemotePaymentOutputData">RemotePaymentOutputData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>It contains the different properties of the remote payment output data. <br /></p>
+<div class="aside aside-since">
+    <p class="aside-title">Since</p>
+    6.1.0
+
+</div>
+
+                        <a href="Protocols/RemotePaymentOutputData.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">RemotePaymentOutputData</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">RemotePaymentOutputData</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)SDKControllerDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/SDKControllerDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SDKControllerDelegate">SDKControllerDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The delegate to notify the SDK configuration</p>
+
+                        <a href="Protocols/SDKControllerDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">SDKControllerDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">SDKControllerDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)SecureCodeInputer"></a>
+                    <a name="//apple_ref/objc/Protocol/SecureCodeInputer" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SecureCodeInputer">SecureCodeInputer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Secure pin inputer protocol</p>
+
+                        <a href="Protocols/SecureCodeInputer.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">SecureCodeInputer</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">SecureCodeInputer</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)TermsAndConditionSession"></a>
+                    <a name="//apple_ref/objc/Protocol/TermsAndConditionSession" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)TermsAndConditionSession">TermsAndConditionSession</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>TermsAndConditionSession provides correlation id and timestamp.</p>
+
+                        <a href="Protocols/TermsAndConditionSession.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">TermsAndConditionSession</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">TermsAndConditionSession</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)TermsAndConditions"></a>
+                    <a name="//apple_ref/objc/Protocol/TermsAndConditions" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)TermsAndConditions">TermsAndConditions</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>TermsAndConditions provides the Contents of the Terms and Condition and also provides the means to accept it.</p>
+
+                        <a href="Protocols/TermsAndConditions.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">TermsAndConditions</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">TermsAndConditions</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)ThreeDSecure"></a>
+                    <a name="//apple_ref/objc/Protocol/ThreeDSecure" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)ThreeDSecure">ThreeDSecure</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>ThreeDSecure supported by the Card Enrollment.</p>
+
+                        <a href="Protocols/ThreeDSecure.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">ThreeDSecure</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">ThreeDSecure</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)TransactionContext"></a>
+                    <a name="//apple_ref/objc/Protocol/TransactionContext" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)TransactionContext">TransactionContext</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>It contains the different value of the current transaction. <br /></p>
+
+<p>It will be used in PaymentServiceDelegate to provide information for the payment.</p>
+
+                        <a href="Protocols/TransactionContext.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">TransactionContext</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">TransactionContext</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)WalletSecureEnrollmentBusinessService"></a>
+                    <a name="//apple_ref/objc/Protocol/WalletSecureEnrollmentBusinessService" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)WalletSecureEnrollmentBusinessService">WalletSecureEnrollmentBusinessService</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <div class="aside aside-since">
+    <p class="aside-title">Since</p>
+    6.0.0
+This service is responsible to manage and communicate with CPS to
+support renewal from a diversifier version to an other.
+MPA will be informed of the current state of the renewal via callbacks.
+
+</div>
+
+<hr>
+
+<p>After renewal MPA will need to replenish new payment keys.</p>
+
+                        <a href="Protocols/WalletSecureEnrollmentBusinessService.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">WalletSecureEnrollmentBusinessService</span> <span class="o">&lt;</span><span class="n"><a href="Protocols/BusinessService.html">BusinessService</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">WalletSecureEnrollmentBusinessService</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)WalletSecureEnrollmentDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/WalletSecureEnrollmentDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)WalletSecureEnrollmentDelegate">WalletSecureEnrollmentDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <div class="aside aside-since">
+    <p class="aside-title">Since</p>
+    <p>Since 6.0.0
+An interface to delegate events while managing the wallet secure enrollment use case.
+Also</p>
+
+</div><div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <p>WalletSecureEnrollmentBusinessService#startWalletSecureEnrollmentWithDelegate:delegate</p>
+
+</div><div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <p>WalletSecureEnrollmentState</p>
+
+</div><div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <p>WalletSecureEnrollmentError</p>
+
+</div>
+
+                        <a href="Protocols/WalletSecureEnrollmentDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">WalletSecureEnrollmentDelegate</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">WalletSecureEnrollmentDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2023 <a class="link" href="https://thalesgroup.com" target="_blank" rel="external noopener">Thales</a>. All rights reserved. (Last updated: 2023-07-27)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

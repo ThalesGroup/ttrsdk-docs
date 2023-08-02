@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PaymentService Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Protocol/PaymentService" class="dashAnchor"></a>
+    <a title="PaymentService Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">TSHPaySDK 6.2.1 Docs</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">TSHPaySDK Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        PaymentService Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Address.html">Address</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CHVerificationManager.html">CHVerificationManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CardMetaData.html">CardMetaData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConnectionConfigurationBuilder.html">ConnectionConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DeviceCVMManager.html">DeviceCVMManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DigitalizedCardAdditionalPaymentData.html">DigitalizedCardAdditionalPaymentData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DigitalizedCardManager.html">DigitalizedCardManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)DigitalizedCardProfileKeys">DigitalizedCardProfileKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InputMethod.html">InputMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IssuerData.html">IssuerData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KeyValues.html">KeyValues</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)KnownMessageCode">KnownMessageCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MGCardInfoEncryptor.html">MGCardInfoEncryptor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)MGConnectionConfiguration">MGConnectionConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)MGTransactionHistoryConfiguration">MGTransactionHistoryConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)MGWalletConfiguration">MGWalletConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MerchantIdentifier.html">MerchantIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MobileGatewayManager.html">MobileGatewayManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PaymentInputDataBuilder.html">PaymentInputDataBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PaymentServiceManager.html">PaymentServiceManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProvisioningServiceError.html">ProvisioningServiceError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProvisioningServiceManager.html">ProvisioningServiceManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProvisioningServiceMessage.html">ProvisioningServiceMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SDKController.html">SDKController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TransactionHistoryBuilder.html">TransactionHistoryBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WalletAccountData.html">WalletAccountData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WalletBuilder.html">WalletBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WalletSecureEnrollmentError.html">WalletSecureEnrollmentError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@ADDITIONAL_DATA">ADDITIONAL_DATA</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@ADDITIONAL_DATA_PAN_EXPIRY">ADDITIONAL_DATA_PAN_EXPIRY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@ADDITIONAL_DATA_PAN_LAST_4_DIGITS">ADDITIONAL_DATA_PAN_LAST_4_DIGITS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@ADDITIONAL_DATA_PRODUCT_ID">ADDITIONAL_DATA_PRODUCT_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@AvailableServiceToString">AvailableServiceToString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CPS_ERROR_CODE_DEFAULT">CPS_ERROR_CODE_DEFAULT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CVM_RESET_TIMEOUT">CVM_RESET_TIMEOUT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@DC_TOKEN_ID">DC_TOKEN_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@DUAL_TAP_TIMEOUT">DUAL_TAP_TIMEOUT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@HTTP_STATUS_CODE_DEFAULT">HTTP_STATUS_CODE_DEFAULT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@HTTP_STATUS_CODE_NO_INTERNET">HTTP_STATUS_CODE_NO_INTERNET</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MASTERCARD_APPLICATION_LIFE_CYCLE_DATA">MASTERCARD_APPLICATION_LIFE_CYCLE_DATA</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MASTERCARD_CARD_LAYOUT_DESC">MASTERCARD_CARD_LAYOUT_DESC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MASTERCARD_MCHIP_ISSUER_OPTIONS">MASTERCARD_MCHIP_ISSUER_OPTIONS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MASTERCARD_SECURITY_WORD">MASTERCARD_SECURITY_WORD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MSG_PAYMENT_INVALID_CRYPTOGRAM">MSG_PAYMENT_INVALID_CRYPTOGRAM</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MSG_PAYMENT_PIN_LOCKED">MSG_PAYMENT_PIN_LOCKED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MSG_PAYMENT_TRANSACTION_APPROVED">MSG_PAYMENT_TRANSACTION_APPROVED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MSG_PAYMENT_WRONG_PIN">MSG_PAYMENT_WRONG_PIN</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@MSG_PIN_CHANGE_SUCCESSFUL">MSG_PIN_CHANGE_SUCCESSFUL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@PAYMENT_CHANNELS">PAYMENT_CHANNELS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@RAGES_ERROR_CODE_EXCEPTION">RAGES_ERROR_CODE_EXCEPTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REPERSO_TIMEOUT_ERROR">REPERSO_TIMEOUT_ERROR</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REQUEST_DELETE_CARD">REQUEST_DELETE_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REQUEST_INSTALL_CARD">REQUEST_INSTALL_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REQUEST_RENEW_CARD">REQUEST_RENEW_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REQUEST_REPLENISH_KEYS">REQUEST_REPLENISH_KEYS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REQUEST_RESUME_CARD">REQUEST_RESUME_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@REQUEST_SUSPEND_CARD">REQUEST_SUSPEND_CARD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:ThreeDSecure.h@RESULT_CODE_AUTHENTICATION_FAILED">RESULT_CODE_AUTHENTICATION_FAILED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:ThreeDSecure.h@RESULT_CODE_SESSION_NOT_FOUND">RESULT_CODE_SESSION_NOT_FOUND</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:ThreeDSecure.h@RESULT_CODE_SUCCESS">RESULT_CODE_SUCCESS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@SCHEME">SCHEME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@SECURELOG_DEFAULT_DIRECTORY">SECURELOG_DEFAULT_DIRECTORY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@SECURELOG_DEFAULT_FILEID">SECURELOG_DEFAULT_FILEID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@SECURELOG_DEFAULT_LEVEL">SECURELOG_DEFAULT_LEVEL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@SECURELOG_DEFAULT_MAX_FILE_COUNT">SECURELOG_DEFAULT_MAX_FILE_COUNT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@SECURELOG_DEFAULT_MAX_FILE_SIZE">SECURELOG_DEFAULT_MAX_FILE_SIZE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@TAG_PAYMENT_OPTION">TAG_PAYMENT_OPTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@TAG_PAYMENT_OPTION_DATA_ENTRY">TAG_PAYMENT_OPTION_DATA_ENTRY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@TSHPaySDKVersionNumber">TSHPaySDKVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@TSHPaySDKVersionString">TSHPaySDKVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SDKReleaseInfo.h@TSH_RELEASE_BUILD">TSH_RELEASE_BUILD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SDKReleaseInfo.h@TSH_RELEASE_QUALIFIER">TSH_RELEASE_QUALIFIER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SDKReleaseInfo.h@TSH_RELEASE_VERSION">TSH_RELEASE_VERSION</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AccessControlFlag.html">AccessControlFlag</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AppCodeStatus.html">AppCodeStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AvailableServices.html">AvailableServices</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CHCodeInputErrorCode.html">CHCodeInputErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CHVerificationMethod.html">CHVerificationMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CdcvmSupported.html">CdcvmSupported</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CryptogramDataType.html">CryptogramDataType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DeviceEligibility.html">DeviceEligibility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DigitalizedCardErrorCodes.html">DigitalizedCardErrorCodes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DigitalizedCardState.html">DigitalizedCardState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EnrollmentStatus.html">EnrollmentStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GetAccessTokenMode.html">GetAccessTokenMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/InputMethodEnum.html">InputMethodEnum</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/KnownCpsErrorCodes.html">KnownCpsErrorCodes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MGErrorCode.html">MGErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MGSDKConfigurationState.html">MGSDKConfigurationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MessageClassification.html">MessageClassification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Outcome.html">Outcome</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PaymentServiceErrorCode.html">PaymentServiceErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PaymentType.html">PaymentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PendingCardActivationState.html">PendingCardActivationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ProvisioningServiceCodeType.html">ProvisioningServiceCodeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ProvisioningServiceErrorCodes.html">ProvisioningServiceErrorCodes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums.html#/c:@E@SecureLogLevel">SecureLogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TerminalTechnology.html">TerminalTechnology</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TerminalType.html">TerminalType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TransactionConditions.html">TransactionConditions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TransactionPurpose.html">TransactionPurpose</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TransactionRange.html">TransactionRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TransactionType.html">TransactionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TwoTapSupported.html">TwoTapSupported</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UserActionOnPoi.html">UserActionOnPoi</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/WalletSecureEnrollmentErrorCodes.html">WalletSecureEnrollmentErrorCodes</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AccessTokenDelegate.html">AccessTokenDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BusinessService.html">BusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CHCodeInput.html">CHCodeInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CHVerifier.html">CHVerifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CVMResetTimeoutDelegate.html">CVMResetTimeoutDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CardArtSize.html">CardArtSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CardProduct.html">CardProduct</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DigitalizedCard.html">DigitalizedCard</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DigitalizedCardDetails.html">DigitalizedCardDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DigitalizedCardStatus.html">DigitalizedCardStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EnrollingBusinessService.html">EnrollingBusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EnrollingServiceDelegate.html">EnrollingServiceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IDVMethod.html">IDVMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IDVMethodSelector.html">IDVMethodSelector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MGCardEnrollmentService.html">MGCardEnrollmentService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MGCardLifeCycleManager.html">MGCardLifeCycleManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MGDigitizationDelegate.html">MGDigitizationDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MGTransactionHistoryService.html">MGTransactionHistoryService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MGTransactionRecord.html">MGTransactionRecord</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MasterCardTransactionInfo.html">MasterCardTransactionInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MastercardTerminalInfo.html">MastercardTerminalInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MastercardTransactionContext.html">MastercardTransactionContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MobileGatewayError.html">MobileGatewayError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentBusinessService.html">PaymentBusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentInputData.html">PaymentInputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentService.html">PaymentService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentServiceDelegate.html">PaymentServiceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PendingCardActivation.html">PendingCardActivation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ProvisioningBusinessService.html">ProvisioningBusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PushServiceDelegate.html">PushServiceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/QRCodeData.html">QRCodeData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/RemotePaymentOutputData.html">RemotePaymentOutputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SDKControllerDelegate.html">SDKControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SecureCodeInputer.html">SecureCodeInputer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TermsAndConditionSession.html">TermsAndConditionSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TermsAndConditions.html">TermsAndConditions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ThreeDSecure.html">ThreeDSecure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TransactionContext.html">TransactionContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/WalletSecureEnrollmentBusinessService.html">WalletSecureEnrollmentBusinessService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/WalletSecureEnrollmentDelegate.html">WalletSecureEnrollmentDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CPSCommon.h@T@BoolResultHandler">BoolResultHandler</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>PaymentService</h1>
+              <div class="declaration">
+                <div class="language">
+                  <p class="aside-title">Objective-C</p>
+                  <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">PaymentService</span></code></pre>
+
+                </div>
+                <div class="language">
+                  <p class="aside-title">Swift</p>
+                  <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">PaymentService</span></code></pre>
+
+                </div>
+              </div>
+            <p>PaymentService is an engine that enables the flow and contains
+execution information for a payment transaction. Some of the control flows
+such as activation and deactivation, however, are managed internally by the
+PaymentBusinessService rather. A typical flow would consist of the
+following steps: <br/></p>
+
+<ul>
+ 
+<li>Activate a digitalized card for transaction PaymentBusinessService activate:
+</li>
+ 
+<li>Prepare transaction: This consists a few actions to be done after the UI
+application receive call-back PaymentServiceDelegater# onPaymentServiceActivated:
+so as to put the digitalized card in the ready state for transaction to take
+place, in the order of following:
+<ul>
+<li>Customize payment flow: In some deployment context, the End-User may be
+allowed to select a few transaction options, such as to use the card as debit
+or credit card. These features are not supported by the SDK inherently as
+they can be different between issuers. At the solution level, the SDK
+provides access to additional data coming from issuer to cater for these
+custom flows via API getAdditionalData: With this API, the UI
+application should be able to show different options to End-User or to make
+decision on its own. Then the application can call
+setData: to &ldquo;temporarily&rdquo; alter some of the allowed
+fields in the transaction details, according to what has been specified by
+the issuer to implement the custom flows. Note that the changes only take
+effect for the current transaction and will not be persisted.</li>
+<li>
+SDK will request CardHolder verification: Depending on the device verification will be requested.
+This object will be returned in the call-back onPaymentServiceActivated:
+Once the UI application has fulfilled the verification step,
+the verifier object will automatically notify the PaymentService to
+be ready for the next step. If this step is found to be not needed, the SDK
+will be automatically put in the ready state.</li>
+<li>
+Application has to set cvmResetTimeoutDelegate in PaymentService in order to get countdown. SDK internally will wiat internally until cvmTimeout sent in onPaymentServiceActivated: for the verification. After this timout, PaymentService will automatically be deactivated.</li>
+</ul>
+
+<p></li></p>
+
+<p><li>Finish transaction: The transaction may finish normally, call-back
+PaymentServiceDelegate onDataReadyForPayment:data conrtext:(TransactionContext), or
+with some error, call-back
+PaymentServiceDelegate onError:(TransactionContext) errorCode:(PaymentServiceErrorCode).
+The TransactionContext contains information about the transaction
+that is worth to be displayed to End-User. It&rsquo;s important to understand that
+from the perspective of the SDK, the result of the transaction is unknown.
+Whether the transaction is approved by the issuer can only be known by the
+validation server. The application will receive a push notification some time
+later that indicates the result of the transaction.</li>
+</ul></p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PaymentService(im)setData:path:error:"></a>
+                    <a name="//apple_ref/objc/Method/-setData:path:error:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PaymentService(im)setData:path:error:">-setData:<wbr>path:<wbr>error:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to update the <b>in-memory</b> card profile according to the
+ supported path. The paths are nominal enumerations to some predefined
+ parts of the profile that allow update operations. This is to enable some
+ customized implementation of the transaction while maintaining the best
+ possible the security for the transaction profile data.<br/>
+ This method is used in conjunction with additionalData.
+ Refer to the documentation of additionalData for more
+ details and example of possible use case.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">setData</span><span class="p">:(</span><span class="n">NSData</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">value</span>
+           <span class="nf">path</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">)</span><span class="nv">path</span>
+          <span class="nf">error</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">anError</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setData</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?,</span> <span class="nv">path</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>value</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The value to update. The validity of the data depends on the path.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>path</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>One of the predefined path in the card profile that allows update. Refer to the list in ProfileUpdatablePaths.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>anError</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Error will be written to this if setting data is not successful</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PaymentService(im)getCHVerifier"></a>
+                    <a name="//apple_ref/objc/Method/-getCHVerifier" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PaymentService(im)getCHVerifier">-getCHVerifier</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+<ul>
+<li>Method to get object which will can be used to verify card holder through TouchID or FaceID.</li>
+<li>@note: this will only return valid data if PaymentService is already activated. Please check PaymentServiceDelegate for more information.
+*</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/CHVerifier.html">CHVerifier</a></span><span class="o">&gt;</span> <span class="n">_Nullable</span><span class="p">)</span><span class="n">getCHVerifier</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>valid object if payment service is activated otherwise nil.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PaymentService(py)selectedPaymentType"></a>
+                    <a name="//apple_ref/objc/Property/selectedPaymentType" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PaymentService(py)selectedPaymentType">selectedPaymentType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Property to check the type of current transaction, refer to PaymentType.
+The type is actually the same per requested by the caller of the activation method.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">)</span> <span class="kt">int</span> <span class="n">selectedPaymentType</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">selectedPaymentType</span><span class="p">:</span> <span class="kt">Int32</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PaymentService(py)isActivated"></a>
+                    <a name="//apple_ref/objc/Property/isActivated" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PaymentService(py)isActivated">isActivated</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Property to check the status of the card. In fact, the method shall return
+true if the UI application has received the call-back onPaymentServiceActivated:
+. At this time, the card&rsquo;s data has been loaded into memory and now
+waiting for the next step from UI application.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">isActivated</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isActivated</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PaymentService(py)delegate"></a>
+                    <a name="//apple_ref/objc/Property/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PaymentService(py)delegate">delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Delegate which was provided during activate: the PaymentService.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">weak</span><span class="p">,</span> <span class="n">readonly</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/PaymentServiceDelegate.html">PaymentServiceDelegate</a></span><span class="o">&gt;</span> <span class="n">delegate</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PaymentService(py)additionalData"></a>
+                    <a name="//apple_ref/objc/Property/additionalData" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PaymentService(py)additionalData">additionalData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Property to get the custom card profile data provided by the issuer for
+ custom purpose. The data in the resulting map contains two always
+ available fields with following key names:
+ <ul>
+ <li>DigitalizedCardProfileKeys#ADDITIONAL_DATA_PRODUCT_ID</li>
+ <li>DigitalizedCardProfileKeys#ADDITIONAL_DATA_PAN_LAST_4_DIGITS</li>
+ </ul>
+ In the context of PaymentService, the UI application should use
+ this method to retrieve issuer-related payment alternative options,
+ whereby the End-User can select to adjust their payment.<br/></p>
+
+<p>An example would be the issuer uses the a key name &ldquo;payment_options&rdquo; with
+ value of single byte as following:
+ <ul>
+ <li>0x80 (0b1000000): Profile supporting &ldquo;pay by debit&rdquo;</li>
+ <li>0x40 (0b0100000): Profile supporting &ldquo;pay by credit&rdquo;</li>
+ <li>0xC0 (0b1100000): Profile supporting both</li>
+ </ul></p>
+
+<p>@note: This is a key-value pairs of additional data from issuer. Note that the
+         value of each key may contain any kind of objects, encoded as
+         UTF-8 string. Each deployment context should have a document to
+         explicitly declare the encoding used for each additional field,
+         and that&rsquo;s not part of the SDK to be able to know this custom.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">readonly</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="n">additionalData</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">additionalData</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PaymentService(py)cvmResetTimeoutDelegate"></a>
+                    <a name="//apple_ref/objc/Property/cvmResetTimeoutDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PaymentService(py)cvmResetTimeoutDelegate">cvmResetTimeoutDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>To register a listener on the count-down timer for the validity of
+ the verification of CardHolder, if done before. <br/>
+ <b>IMPORTANT:</b>The UI application must register the listener if a
+ CardHolder verification was asked by the SDK. Refer to the summary of
+ this interface for more details of this method in the whole flow.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">weak</span><span class="p">,</span> <span class="n">readonly</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/CVMResetTimeoutDelegate.html">CVMResetTimeoutDelegate</a></span><span class="o">&gt;</span> <span class="n">cvmResetTimeoutDelegate</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PaymentService(py)qrCodeData"></a>
+                    <a name="//apple_ref/objc/Property/qrCodeData" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PaymentService(py)qrCodeData">qrCodeData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The output data to show the QRCode</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">readonly</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/QRCodeData.html">QRCodeData</a></span><span class="o">&gt;</span> <span class="n">qrCodeData</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)PaymentService(py)remotePaymentOutputData"></a>
+                    <a name="//apple_ref/objc/Property/remotePaymentOutputData" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)PaymentService(py)remotePaymentOutputData">remotePaymentOutputData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The output data to show the Remote payment output data</p>
+<div class="aside aside-since">
+    <p class="aside-title">Since</p>
+    6.1.0
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">readonly</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/RemotePaymentOutputData.html">RemotePaymentOutputData</a></span><span class="o">&gt;</span> <span class="n">remotePaymentOutputData</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2023 <a class="link" href="https://thalesgroup.com" target="_blank" rel="external noopener">Thales</a>. All rights reserved. (Last updated: 2023-07-27)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
