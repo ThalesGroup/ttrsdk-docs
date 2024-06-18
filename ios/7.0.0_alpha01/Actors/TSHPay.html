@@ -19,7 +19,9 @@
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
-        <a href="../index.html">TSHPaySDK Reference</a>
+        <a href="../index.html">TSHPaySDK</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        <a href="../Actors.html">Actors</a>
         <img id="carat" src="../img/carat.png" alt=""/>
         TSHPay Actor Reference
       </p>
@@ -174,7 +176,7 @@
               <div class="declaration">
                 <div class="language">
                   
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="n">actor</span> <span class="kt">TSHPay</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">actor</span> <span class="kt">TSHPay</span></code></pre>
 
                 </div>
               </div>
@@ -237,7 +239,7 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">configure</span><span class="p">(</span>
     <span class="n">withVerificationMethod</span> <span class="nv">verificationMethod</span><span class="p">:</span> <span class="kt"><a href="../Actors/TSHPay/CardHolderVerificationMethod.html">CardHolderVerificationMethod</a></span><span class="p">,</span>
     <span class="nv">plistConfiguration</span><span class="p">:</span> <span class="kt"><a href="../Actors/TSHPay/PlistConfigurationType.html">PlistConfigurationType</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span>
-<span class="p">)</span> <span class="n">async</span> <span class="k">throws</span></code></pre>
+<span class="p">)</span> <span class="k">async</span> <span class="k">throws</span></code></pre>
 
                         </div>
                       </div>
@@ -253,7 +255,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>Card holder verification method.</p>
+                                  <p>The cardholder verification method that is used during a payment.</p>
                                 </div>
                               </td>
                             </tr>
@@ -265,7 +267,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>Provide a custom plist configuration, else default will be used.</p>
+                                  <p>Provide a custom name of the plist configuration file, else the bundled configuration file must be named as &lsquo;TSHPay.plist&rsquo;.</p>
                                 </div>
                               </td>
                             </tr>
@@ -295,7 +297,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="n">nonisolated</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">secureLog</span><span class="p">:</span> <span class="p">(</span><span class="n">any</span> <span class="kt">SecureLog</span><span class="p">)?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">throws</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">nonisolated</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">secureLog</span><span class="p">:</span> <span class="p">(</span><span class="kd">any</span> <span class="kt">SecureLog</span><span class="p">)?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">throws</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -325,7 +327,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">reset</span><span class="p">()</span> <span class="n">async</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">reset</span><span class="p">()</span> <span class="k">async</span> <span class="k">throws</span></code></pre>
 
                         </div>
                       </div>
@@ -376,7 +378,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Indicate the device is eligibility to perform digitze card</p>
+                        <p>Indicates the device eligibility for different use cases.</p>
 
                         <a href="../Actors/TSHPay/DeviceEligibility.html" class="slightly-smaller">See more</a>
                       </div>
@@ -432,7 +434,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Indicate the result whether device is setup with Passcode or Biometric</p>
+                        <p>Indicates whether the device is set up with passcode or biometrics.</p>
 
                         <a href="../Actors/TSHPay/DeviceOwnerAuthentication.html" class="slightly-smaller">See more</a>
                       </div>
@@ -488,7 +490,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>PList Configurations available for use</p>
+                        <p>PList Configurations available for use.</p>
 
                         <a href="../Actors/TSHPay/PlistConfigurationType.html" class="slightly-smaller">See more</a>
                       </div>
@@ -509,7 +511,7 @@
         </section>
         <section id="footer">
           <p>Copyright © 2024 THALES. All rights reserved.</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>

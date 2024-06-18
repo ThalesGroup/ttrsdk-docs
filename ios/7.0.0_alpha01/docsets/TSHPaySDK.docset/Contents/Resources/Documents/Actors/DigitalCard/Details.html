@@ -19,7 +19,11 @@
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
-        <a href="../../index.html">TSHPaySDK Reference</a>
+        <a href="../../index.html">TSHPaySDK</a>
+        <img id="carat" src="../../img/carat.png" alt=""/>
+        <a href="../../Actors.html">Actors</a>
+        <img id="carat" src="../../img/carat.png" alt=""/>
+        <a href="../../Actors/DigitalCard.html">DigitalCard</a>
         <img id="carat" src="../../img/carat.png" alt=""/>
         Details Class Reference
       </p>
@@ -197,7 +201,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The digital card id that identifies this instance of the <code>digitalCard</code>.</p>
+                        <p>The digital card ID that identifies this instance of the <code>digitalCard</code>.</p>
 
                       </div>
                       <div class="declaration">
@@ -224,7 +228,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Product id of this <code>digitalCard</code>. Can be empty.</p>
+                        <p>Product id of this <code>digitalCard</code>. This string mey be empty.</p>
 
                       </div>
                       <div class="declaration">
@@ -251,7 +255,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Scheme used by this <code>digitalCard</code>.</p>
+                        <p>Scheme of this <code>digitalCard</code>.</p>
 
                       </div>
                       <div class="declaration">
@@ -359,7 +363,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Check if a particular payment method is supported.</p>
+                        <p>Checks if a particular payment method is supported.</p>
 
                       </div>
                       <div class="declaration">
@@ -452,7 +456,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Retrieve all supported AIDs</p>
+                        <p>Retrieves all the supported AIDs.</p>
 
                       </div>
                       <div class="declaration">
@@ -465,7 +469,7 @@
                       </div>
                       <div>
                         <h4>Return Value</h4>
-                        <p><code>[String]</code>: an array containing the <code>String</code> of AIDs, index 0 always represents main AID. Empty if the card does not support QR code payment.</p>
+                        <p><code>[String]</code>: An array containing the String of AIDs in which index 0 always represents the main AID. This array will be empty if the card does not support QR code payment.</p>
                       </div>
                     </section>
                   </div>
@@ -483,7 +487,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Return all  supported PaymentType for this <code><a href="../../Actors/DigitalCard.html">DigitalCard</a></code>.</p>
+                        <p>Returns all the supported payment types for this DigitalCard.</p>
 
                       </div>
                       <div class="declaration">
@@ -496,7 +500,7 @@
                       </div>
                       <div>
                         <h4>Return Value</h4>
-                        <p><code>[PaymentType]</code>: an array containing the <code><a href="../../Actors/DigitalCard/PaymentType.html">PaymentType</a></code>s supported.</p>
+                        <p><code>[PaymentType]</code>:An array containing the payment types supported.</p>
                       </div>
                     </section>
                   </div>
@@ -514,7 +518,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Retrieve non-sensitive information related to the relevant key</p>
+                        <p>Retrieves the non-sensitive information related to the relevant key.</p>
 
                       </div>
                       <div class="declaration">
@@ -527,7 +531,7 @@
                       </div>
                       <div>
                         <h4>Return Value</h4>
-                        <p><code>String?</code>: Value for the key specified. Empty if the key does not exist.</p>
+                        <p><code>String?</code>:  Value for the key specified. This is empty if the key does not exist.</p>
                       </div>
                     </section>
                   </div>
@@ -538,7 +542,7 @@
         </section>
         <section id="footer">
           <p>Copyright © 2024 THALES. All rights reserved.</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>

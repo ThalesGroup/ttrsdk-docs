@@ -19,7 +19,9 @@
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
-        <a href="../index.html">TSHPaySDK Reference</a>
+        <a href="../index.html">TSHPaySDK</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        <a href="../Actors.html">Actors</a>
         <img id="carat" src="../img/carat.png" alt=""/>
         DigitalCard Actor Reference
       </p>
@@ -174,7 +176,7 @@
               <div class="declaration">
                 <div class="language">
                   
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="n">actor</span> <span class="kt">DigitalCard</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">actor</span> <span class="kt">DigitalCard</span></code></pre>
 
                 </div>
               </div>
@@ -213,20 +215,20 @@ Implementation of the <code>DigitalCard</code> retrieved from the  <code><a href
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Set the <code>DigitalCard</code> as the default payment card.</p>
+                        <p>Sets the <code>DigitalCard</code> as the default payment card.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setDefault</span><span class="p">()</span> <span class="n">async</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setDefault</span><span class="p">()</span> <span class="k">async</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
                       </div>
                       <div>
                         <h4>Return Value</h4>
-                        <p>Bool. True if the operation is successful.</p>
+                        <p>Bool.  It returns <code>true</code> if the operation is successful.</p>
                       </div>
                     </section>
                   </div>
@@ -251,7 +253,7 @@ Implementation of the <code>DigitalCard</code> retrieved from the  <code><a href
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="n">nonisolated</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">digitalCardID</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">nonisolated</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">digitalCardID</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -271,7 +273,7 @@ Implementation of the <code>DigitalCard</code> retrieved from the  <code><a href
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Retrieve <code><a href="../Actors/DigitalCard/Details.html">DigitalCard.Details</a></code> of the card.</p>
+                        <p>Retrieves <code><a href="../Actors/DigitalCard/Details.html">DigitalCard.Details</a></code> of the card.</p>
 
                       </div>
                       <div class="declaration">
@@ -302,7 +304,7 @@ Implementation of the <code>DigitalCard</code> retrieved from the  <code><a href
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Check if the <code>DigitalCard</code> is the default payment card.</p>
+                        <p>Checks if the <code>DigitalCard</code> is the default payment card.</p>
 
                       </div>
                       <div class="declaration">
@@ -315,7 +317,7 @@ Implementation of the <code>DigitalCard</code> retrieved from the  <code><a href
                       </div>
                       <div>
                         <h4>Return Value</h4>
-                        <p>Bool. True if the card is the default payment card.</p>
+                        <p>Bool.  It returns <code>true</code> if the card is the default payment card.</p>
                       </div>
                     </section>
                   </div>
@@ -333,7 +335,7 @@ Implementation of the <code>DigitalCard</code> retrieved from the  <code><a href
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Retrieve <code><a href="../Actors/DigitalCard/Status.html">DigitalCard.Status</a></code> of the card.</p>
+                        <p>Retrieves <code><a href="../Actors/DigitalCard/Status.html">DigitalCard.Status</a></code> of the card.</p>
 
                       </div>
                       <div class="declaration">
@@ -364,7 +366,7 @@ Implementation of the <code>DigitalCard</code> retrieved from the  <code><a href
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Return the <code><a href="../Actors/DigitalCard/State.html">DigitalCard.State</a></code> of the card</p>
+                        <p>Returns the <code><a href="../Actors/DigitalCard/State.html">DigitalCard.State</a></code> of the card</p>
 
                       </div>
                       <div class="declaration">
@@ -414,7 +416,7 @@ Implementation of the <code>DigitalCard</code> retrieved from the  <code><a href
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>CardArt provides the Card information used by the MPA for display.</p>
+                        <p>CardArt provides the card information used by the MPA for display.</p>
 
                         <a href="../Actors/DigitalCard/CardArt.html" class="slightly-smaller">See more</a>
                       </div>
@@ -470,7 +472,7 @@ Implementation of the <code>DigitalCard</code> retrieved from the  <code><a href
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The types of payment methods supported by a <code><a href="../Actors/DigitalCard.html">DigitalCard</a></code>.</p>
+                        <p>The types of payment methods supported by the <code><a href="../Actors/DigitalCard.html">DigitalCard</a></code>.</p>
 
                         <a href="../Actors/DigitalCard/PaymentType.html" class="slightly-smaller">See more</a>
                       </div>
@@ -498,7 +500,7 @@ Implementation of the <code>DigitalCard</code> retrieved from the  <code><a href
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The types of payment schemes supported by a <code><a href="../Actors/DigitalCard.html">DigitalCard</a></code>.</p>
+                        <p>The payment scheme of the <code><a href="../Actors/DigitalCard.html">DigitalCard</a></code>.</p>
 
                         <a href="../Actors/DigitalCard/Scheme.html" class="slightly-smaller">See more</a>
                       </div>
@@ -575,7 +577,7 @@ Implementation of the <code>DigitalCard</code> retrieved from the  <code><a href
         </section>
         <section id="footer">
           <p>Copyright © 2024 THALES. All rights reserved.</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>

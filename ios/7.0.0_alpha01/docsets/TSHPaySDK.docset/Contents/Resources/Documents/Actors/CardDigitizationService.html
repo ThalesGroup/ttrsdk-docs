@@ -19,7 +19,9 @@
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
-        <a href="../index.html">TSHPaySDK Reference</a>
+        <a href="../index.html">TSHPaySDK</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        <a href="../Actors.html">Actors</a>
         <img id="carat" src="../img/carat.png" alt=""/>
         CardDigitizationService Actor Reference
       </p>
@@ -174,11 +176,11 @@
               <div class="declaration">
                 <div class="language">
                   
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="n">actor</span> <span class="kt">CardDigitizationService</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">actor</span> <span class="kt">CardDigitizationService</span></code></pre>
 
                 </div>
               </div>
-            <p>Card Digitization Service - Used to digitize and enrol a card.</p>
+            <p>This service is used to digitize and enrol a card.</p>
 
           </section>
           <section class="section task-group-section">
@@ -227,7 +229,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Perform an eligibility check on the card before digitization.</p>
+                        <p>Performs an eligibility check on the card before digitization.</p>
 <div class="aside aside-throws">
     <p class="aside-title">Throws</p>
     <code><a href="../Actors/CardDigitizationService/Error.html">Error</a></code>.
@@ -242,7 +244,7 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">checkEligibility</span><span class="p">(</span>
     <span class="n">_</span> <span class="nv">eligibilityData</span><span class="p">:</span> <span class="kt"><a href="../Actors/CardDigitizationService/EligibilityData.html">EligibilityData</a></span><span class="p">,</span>
     <span class="nv">instrumentData</span><span class="p">:</span> <span class="kt"><a href="../Actors/CardDigitizationService/InstrumentData.html">InstrumentData</a></span>
-<span class="p">)</span> <span class="n">async</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Actors/CardDigitizationService/EligibilityAcceptableData.html">EligibilityAcceptableData</a></span></code></pre>
+<span class="p">)</span> <span class="k">async</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Actors/CardDigitizationService/EligibilityAcceptableData.html">EligibilityAcceptableData</a></span></code></pre>
 
                         </div>
                       </div>
@@ -269,7 +271,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Begin the digitization process.
+                        <p>Begins the digitization process.
 When <code><a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDigitizationServiceC16checkEligibility_14instrumentDataAC0g10AcceptableI0VAC0gI0V_AC010InstrumentI0VtYaKF">checkEligibility(_:instrumentData:)</a></code> returns <code><a href="../Actors/CardDigitizationService/TermsAndCondition.html">TermsAndCondition</a></code>, MPA has to accept it and pass it as a parameter.</p>
 
                       </div>
@@ -281,7 +283,7 @@ When <code><a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDi
     <span class="n">withTNC</span> <span class="nv">tnc</span><span class="p">:</span> <span class="kt">CardDigitizationService</span><span class="o">.</span><span class="kt"><a href="../Actors/CardDigitizationService/TermsAndConditionSession.html">TermsAndConditionSession</a></span><span class="p">,</span>
     <span class="nv">pushToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
     <span class="nv">language</span><span class="p">:</span> <span class="kt">String</span>
-<span class="p">)</span> <span class="n">async</span></code></pre>
+<span class="p">)</span> <span class="k">async</span></code></pre>
 
                         </div>
                       </div>
@@ -301,7 +303,7 @@ When <code><a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDi
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Check if the card activation was previously interrupted.</p>
+                        <p>Checks if the card activation was previously interrupted.</p>
 
                       </div>
                       <div class="declaration">
@@ -328,7 +330,7 @@ When <code><a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDi
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Await the result from <code><a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDigitizationServiceC08digitizeC07withTNC9pushToken8languageyAC24TermsAndConditionSessionV_S2StYaF">digitizeCard(withTNC:pushToken:language:)</a></code>.</p>
+                        <p>Awaits the result from <code><a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDigitizationServiceC08digitizeC07withTNC9pushToken8languageyAC24TermsAndConditionSessionV_S2StYaF">digitizeCard(withTNC:pushToken:language:)</a></code>.</p>
 
                       </div>
                       <div class="declaration">
@@ -391,7 +393,7 @@ When <code><a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDi
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Card enrollment service error</p>
+                        <p>Card enrollment service error.</p>
 
                         <a href="../Actors/CardDigitizationService/Error.html" class="slightly-smaller">See more</a>
                       </div>
@@ -420,7 +422,7 @@ When <code><a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDi
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p><code>EligibilityData</code> is used by MPA to check the eligibility of a card.</p>
+                        <p><code>EligibilityData</code> is used by MPA to provide information associated with the card digitization.</p>
 
                         <a href="../Actors/CardDigitizationService/EligibilityData.html" class="slightly-smaller">See more</a>
                       </div>
@@ -476,7 +478,7 @@ When <code><a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDi
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The different verification/authentication methods used by the card enrollment process.</p>
+                        <p>The different verification/authentication methods used to verify the cardholder&rsquo;s identify.</p>
 
                         <a href="../Actors/CardDigitizationService/IDVMethod.html" class="slightly-smaller">See more</a>
                       </div>
@@ -504,7 +506,7 @@ When <code><a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDi
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The different authentication methods supported for card activation.</p>
+                        <p>The object used to list and select IDV method for card activation.</p>
 
                         <a href="../Actors/CardDigitizationService/IDVMethodSelector.html" class="slightly-smaller">See more</a>
                       </div>
@@ -532,7 +534,7 @@ When <code><a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDi
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p><code>InstrumentData</code> is used by MPA to check the eligibility iof a card.</p>
+                        <p><code>InstrumentData</code> is used by MPA to provide information of the card to be digitized.</p>
 
                         <a href="../Actors/CardDigitizationService/InstrumentData.html" class="slightly-smaller">See more</a>
                       </div>
@@ -588,7 +590,7 @@ When <code><a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDi
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>IssuerData indicates the information of the issuer.</p>
+                        <p>IssuerData contains the information of the issuer.</p>
 
                         <a href="../Actors/CardDigitizationService/IssuerData.html" class="slightly-smaller">See more</a>
                       </div>
@@ -616,7 +618,7 @@ When <code><a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDi
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p><code>PendingCardActivation</code> indicates the cards which were previously interrupted during activation.</p>
+                        <p><code>PendingCardActivation</code> indicates the card which was previously interrupted during activation.</p>
 
                         <a href="../Actors/CardDigitizationService/PendingCardActivation.html" class="slightly-smaller">See more</a>
                       </div>
@@ -624,7 +626,7 @@ When <code><a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDi
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="n">actor</span> <span class="kt">PendingCardActivation</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">actor</span> <span class="kt">PendingCardActivation</span></code></pre>
 
                         </div>
                       </div>
@@ -644,7 +646,7 @@ When <code><a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDi
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>State for CardEnrollment Service with  <code><a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDigitizationServiceC08digitizeC07withTNC9pushToken8languageyAC24TermsAndConditionSessionV_S2StYaF">digitizeCard(withTNC:pushToken:language:)</a></code></p>
+                        <p>State of the card digitization process that is initiated with <code><a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDigitizationServiceC08digitizeC07withTNC9pushToken8languageyAC24TermsAndConditionSessionV_S2StYaF">digitizeCard(withTNC:pushToken:language:)</a></code></p>
 
                         <a href="../Actors/CardDigitizationService/State.html" class="slightly-smaller">See more</a>
                       </div>
@@ -721,7 +723,7 @@ When <code><a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDi
         </section>
         <section id="footer">
           <p>Copyright © 2024 THALES. All rights reserved.</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>

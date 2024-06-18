@@ -19,7 +19,9 @@
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
-        <a href="../index.html">TSHPaySDK Reference</a>
+        <a href="../index.html">TSHPaySDK</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        <a href="../Actors.html">Actors</a>
         <img id="carat" src="../img/carat.png" alt=""/>
         DigitalCardManager Actor Reference
       </p>
@@ -174,7 +176,7 @@
               <div class="declaration">
                 <div class="language">
                   
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="n">actor</span> <span class="kt">DigitalCardManager</span> <span class="p">:</span> <span class="kt">DigitalCardManageable</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">actor</span> <span class="kt">DigitalCardManager</span> <span class="p">:</span> <span class="kt">DigitalCardManageable</span></code></pre>
 
                 </div>
               </div>
@@ -240,7 +242,7 @@ Also allows card operations such as suspend, resume or deletion of a specified <
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">unsetDefaultCard</span><span class="p">()</span> <span class="n">async</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">unsetDefaultCard</span><span class="p">()</span> <span class="k">async</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
                       </div>
@@ -271,7 +273,7 @@ Also allows card operations such as suspend, resume or deletion of a specified <
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="n">nonisolated</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">digitalCard</span><span class="p">(</span><span class="n">forID</span> <span class="nv">digitalCardID</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Actors/DigitalCard.html">DigitalCard</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">nonisolated</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">digitalCard</span><span class="p">(</span><span class="n">forID</span> <span class="nv">digitalCardID</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Actors/DigitalCard.html">DigitalCard</a></span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -324,7 +326,7 @@ Also allows card operations such as suspend, resume or deletion of a specified <
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">retrieveCardArt</span><span class="p">(</span><span class="n">forDigitalCardID</span> <span class="nv">digitalCardID</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="n">async</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Actors/DigitalCard.html">DigitalCard</a></span><span class="o">.</span><span class="kt">CardArt</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">retrieveCardArt</span><span class="p">(</span><span class="n">forDigitalCardID</span> <span class="nv">digitalCardID</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">async</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Actors/DigitalCard.html">DigitalCard</a></span><span class="o">.</span><span class="kt">CardArt</span></code></pre>
 
                         </div>
                       </div>
@@ -437,7 +439,7 @@ Await the result from <code><a href="../Actors/DigitalCardManager.html#/s:9TSHPa
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isDigitalCardSyncAllowed</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="n">async</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isDigitalCardSyncAllowed</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">async</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -467,7 +469,7 @@ Await the result from <code><a href="../Actors/DigitalCardManager.html#/s:9TSHPa
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">digitalCardSyncSchedule</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="p">{</span> <span class="k">get</span> <span class="n">async</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">digitalCardSyncSchedule</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="p">{</span> <span class="k">get</span> <span class="k">async</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -497,7 +499,7 @@ Await the result from <code><a href="../Actors/DigitalCardManager.html#/s:9TSHPa
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">cardList</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Actors/DigitalCard.html">DigitalCard</a></span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="n">async</span> <span class="k">throws</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">cardList</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Actors/DigitalCard.html">DigitalCard</a></span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="k">async</span> <span class="k">throws</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -531,7 +533,7 @@ Await the result from <code><a href="../Actors/DigitalCardManager.html#/s:9TSHPa
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">defaultCard</span><span class="p">:</span> <span class="kt"><a href="../Actors/DigitalCard.html">DigitalCard</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="n">async</span> <span class="k">throws</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">defaultCard</span><span class="p">:</span> <span class="kt"><a href="../Actors/DigitalCard.html">DigitalCard</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">async</span> <span class="k">throws</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -632,7 +634,7 @@ Await the result from <code><a href="../Actors/DigitalCardManager.html#/s:9TSHPa
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">manage</span><span class="p">(</span><span class="nv">digitalCardID</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="kt"><a href="../Actors/DigitalCardManager/CardManagementAction.html">CardManagementAction</a></span><span class="p">)</span> <span class="n">async</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">manage</span><span class="p">(</span><span class="nv">digitalCardID</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="kt"><a href="../Actors/DigitalCardManager/CardManagementAction.html">CardManagementAction</a></span><span class="p">)</span> <span class="k">async</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -736,7 +738,7 @@ Await the result from <code><a href="../Actors/DigitalCardManager.html#/s:9TSHPa
         </section>
         <section id="footer">
           <p>Copyright © 2024 THALES. All rights reserved.</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
