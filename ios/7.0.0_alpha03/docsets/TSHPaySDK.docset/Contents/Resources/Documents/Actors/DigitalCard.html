@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DigitalCard Actor Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Actor/DigitalCard" class="dashAnchor"></a>
+    <a title="DigitalCard Actor Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">TSHPaySDK</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">TSHPaySDK Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        DigitalCard Actor Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../terms-of-use.html">Terms of use</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Actors.html">Actors</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService.html">CardDigitizationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/EligibilityAcceptableData.html">– EligibilityAcceptableData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/IDVMethod.html">– IDVMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/IDVMethodSelector.html">– IDVMethodSelector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/PendingCardActivation.html">– PendingCardActivation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/PendingCardActivationSession.html">– PendingCardActivationSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/EligibilityData.html">– EligibilityData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/EligibilityDataComponents.html">– EligibilityDataComponents</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/InstrumentData.html">– InstrumentData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/InstrumentDataComponents.html">– InstrumentDataComponents</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/IssuerData.html">– IssuerData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDigitizationServiceC24TermsAndConditionSessionV">– TermsAndConditionSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/TermsAndCondition.html">– TermsAndCondition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard.html">DigitalCard</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/CardArt.html">– CardArt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/CardMetaData.html">– CardMetaData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/Details.html">– Details</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/PaymentKeyInfo.html">– PaymentKeyInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/KeyType.html">– KeyType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/PaymentType.html">– PaymentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/Scheme.html">– Scheme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCardManager.html">DigitalCardManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCardManager/CardManagementAction.html">– CardManagementAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCardManager/ManageCardError.html">– ManageCardError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCardManager/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCardManager/SyncEvent.html">– SyncEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCardManager/SyncStatus.html">– SyncStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/TSHPay.html">TSHPay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/TSHPay/DeviceEligibility.html">– DeviceEligibility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/TSHPay/CardHolderVerificationMethod.html">– CardHolderVerificationMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/TSHPay/DeviceOwnerAuthentication.html">– DeviceOwnerAuthentication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/TSHPay/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/TSHPay/PlistConfigurationType.html">– PlistConfigurationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/WalletSecureEnrollmentService.html">WalletSecureEnrollmentService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/WalletSecureEnrollmentService/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/WalletSecureEnrollmentService/Error.html">– Error</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:9TSHPaySDK7AidInfoC">AidInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:9TSHPaySDK16AlternateAidInfoC">AlternateAidInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Contactless.html">Contactless</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ContactlessPaymentSession.html">ContactlessPaymentSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ContactlessPaymentSession/Eligibility.html">– Eligibility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ContactlessPaymentSession/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ContactlessPaymentSession/Event.html">– Event</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ContactlessPaymentSession/AuthenticateAction.html">– AuthenticateAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:9TSHPaySDK12DCMErrorCodeC">DCMErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/McContactless.html">McContactless</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationService.html">NotificationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationService/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationService/KnownMessage.html">– KnownMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationService/MessageSeverity.html">– MessageSeverity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationService/ServerMessage.html">– ServerMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationService/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:9TSHPaySDK10PrivateKeyC">PrivateKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/QRPaymentSession.html">QRPaymentSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/QRPaymentSession/QRPaymentOutputData.html">– QRPaymentOutputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/QRPaymentSession/QRPaymentInputData.html">– QRPaymentInputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/QRPaymentSession/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:9TSHPaySDK6RecordC">Record</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ReplenishmentService.html">ReplenishmentService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ReplenishmentService/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TransactionContext.html">TransactionContext</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/CardSession.html">CardSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CardSession.html#/s:7CoreNFC11CardSessionC17EmulationUIStatusO">– EmulationUIStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/OSLogType.html">OSLogType</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>DigitalCard</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="n">actor</span> <span class="kt">DigitalCard</span></code></pre>
+
+                </div>
+              </div>
+            <p>DigitalCard Class
+Implementation of the <code>DigitalCard</code> retrieved from the  <code><a href="../Actors/DigitalCardManager.html">DigitalCardManager</a></code> module.</p>
+
+<ul>
+<li>This can be used to :
+
+<ul>
+<li>Determine if this card is the default payment card</li>
+<li>Retrieve card details</li>
+<li>Retrieve the current card state</li>
+<li>Retrieve the <code>digitalCardId</code> for this card</li>
+<li>Set this card as the default payment card (if it currently is not)</li>
+</ul></li>
+</ul>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK11DigitalCardC10setDefaultSbyYaKF"></a>
+                    <a name="//apple_ref/swift/Method/setDefault()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK11DigitalCardC10setDefaultSbyYaKF">setDefault()</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the <code>DigitalCard</code> as the default payment card.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setDefault</span><span class="p">()</span> <span class="n">async</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Bool.  It returns <code>true</code> if the operation is successful.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK11DigitalCardC07digitalD2IDSSvp"></a>
+                    <a name="//apple_ref/swift/Property/digitalCardID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK11DigitalCardC07digitalD2IDSSvp">digitalCardID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Digital Card ID of the <code>DigitalCard</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="n">nonisolated</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">digitalCardID</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK11DigitalCardC7detailsAC7DetailsCvp"></a>
+                    <a name="//apple_ref/swift/Property/details" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK11DigitalCardC7detailsAC7DetailsCvp">details</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieves <code><a href="../Actors/DigitalCard/Details.html">DigitalCard.Details</a></code> of the card.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">details</span><span class="p">:</span> <span class="kt">DigitalCard</span><span class="o">.</span><span class="kt"><a href="../Actors/DigitalCard/Details.html">Details</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">throws</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code><a href="../Actors/DigitalCard/Details.html">DigitalCard.Details</a></code> containing the details of this card.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK11DigitalCardC09isDefaultD0Sbvp"></a>
+                    <a name="//apple_ref/swift/Property/isDefaultCard" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK11DigitalCardC09isDefaultD0Sbvp">isDefaultCard</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Checks if the <code>DigitalCard</code> is the default payment card.</p>
+
+<blockquote>
+<p>Throws:</p>
+
+<ul>
+<li><code><a href="../Actors/DigitalCardManager/ManageCardError.html">ManageCardError</a></code> - Error encountered during card operations.</li>
+<li><code><a href="../Actors/DigitalCardManager/Error.html">Error</a></code> -  Error encountered during card operations.</li>
+</ul>
+</blockquote>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isDefaultCard</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">throws</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Bool. It returns <code>true</code> if the card is the default payment card.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK11DigitalCardC14paymentKeyInfoAC07PaymentfG0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/paymentKeyInfo" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK11DigitalCardC14paymentKeyInfoAC07PaymentfG0Vvp">paymentKeyInfo</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieves <code><a href="../Actors/DigitalCard/PaymentKeyInfo.html">DigitalCard.PaymentKeyInfo</a></code> of the card.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">paymentKeyInfo</span><span class="p">:</span> <span class="kt">DigitalCard</span><span class="o">.</span><span class="kt"><a href="../Actors/DigitalCard/PaymentKeyInfo.html">PaymentKeyInfo</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">throws</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code><a href="../Actors/DigitalCard/PaymentKeyInfo.html">DigitalCard.PaymentKeyInfo</a></code> containing the payment key information of this card.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK11DigitalCardC5stateAC5StateOvp"></a>
+                    <a name="//apple_ref/swift/Property/state" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK11DigitalCardC5stateAC5StateOvp">state</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the <code><a href="../Actors/DigitalCard/State.html">DigitalCard.State</a></code> of the card</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">DigitalCard</span><span class="o">.</span><span class="kt"><a href="../Actors/DigitalCard/State.html">State</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">throws</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code><a href="../Actors/DigitalCard/State.html">DigitalCard.State</a></code> containing the state of this card.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK11DigitalCardC7cardArtAC0dF0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/cardArt" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK11DigitalCardC7cardArtAC0dF0Vvp">cardArt</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the <code><a href="../Actors/DigitalCard/CardArt.html">DigitalCard.CardArt</a></code> of the card</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">cardArt</span><span class="p">:</span> <span class="kt">DigitalCard</span><span class="o">.</span><span class="kt"><a href="../Actors/DigitalCard/CardArt.html">CardArt</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">throws</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code><a href="../Actors/DigitalCard/CardArt.html">DigitalCard.CardArt</a></code> containing the card art of this card.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK11DigitalCardC12cardMetaDataAC0dfG0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/cardMetaData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK11DigitalCardC12cardMetaDataAC0dfG0Vvp">cardMetaData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the <code><a href="../Actors/DigitalCard/CardMetaData.html">DigitalCard.CardMetaData</a></code> of the card</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">cardMetaData</span><span class="p">:</span> <span class="kt">DigitalCard</span><span class="o">.</span><span class="kt"><a href="../Actors/DigitalCard/CardMetaData.html">CardMetaData</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">throws</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code><a href="../Actors/DigitalCard/CardMetaData.html">DigitalCard.CardMetaData</a></code> containing the card meta data of this card.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK11DigitalCardC0D3ArtV"></a>
+                    <a name="//apple_ref/swift/Struct/CardArt" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK11DigitalCardC0D3ArtV">CardArt</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>CardArt provides the card information used by the MPA for display.</p>
+
+                        <a href="../Actors/DigitalCard/CardArt.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">CardArt</span> <span class="p">:</span> <span class="kt">Sendable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK11DigitalCardC0D8MetaDataV"></a>
+                    <a name="//apple_ref/swift/Struct/CardMetaData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK11DigitalCardC0D8MetaDataV">CardMetaData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>CardArt provides the card information used by the MPA for display.</p>
+
+                        <a href="../Actors/DigitalCard/CardMetaData.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">CardMetaData</span> <span class="p">:</span> <span class="kt">Sendable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK11DigitalCardC7DetailsC"></a>
+                    <a name="//apple_ref/swift/Class/Details" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK11DigitalCardC7DetailsC">Details</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Detailed information pertaining to a specific <code><a href="../Actors/DigitalCard.html">DigitalCard</a></code>.</p>
+
+                        <a href="../Actors/DigitalCard/Details.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">Details</span> <span class="p">:</span> <span class="kt">Sendable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK11DigitalCardC14PaymentKeyInfoV"></a>
+                    <a name="//apple_ref/swift/Struct/PaymentKeyInfo" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK11DigitalCardC14PaymentKeyInfoV">PaymentKeyInfo</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>DigitalCard.Status</code> contains information about the current status of the card.</p>
+
+                        <a href="../Actors/DigitalCard/PaymentKeyInfo.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">PaymentKeyInfo</span> <span class="p">:</span> <span class="kt">Sendable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK11DigitalCardC7KeyTypeO"></a>
+                    <a name="//apple_ref/swift/Enum/KeyType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK11DigitalCardC7KeyTypeO">KeyType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Payment key type.</p>
+
+                        <a href="../Actors/DigitalCard/KeyType.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">KeyType</span> <span class="p">:</span> <span class="kt">Sendable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK11DigitalCardC11PaymentTypeO"></a>
+                    <a name="//apple_ref/swift/Enum/PaymentType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK11DigitalCardC11PaymentTypeO">PaymentType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The types of payment methods supported by the <code><a href="../Actors/DigitalCard.html">DigitalCard</a></code>.</p>
+
+                        <a href="../Actors/DigitalCard/PaymentType.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">PaymentType</span> <span class="p">:</span> <span class="kt">UInt</span><span class="p">,</span> <span class="kt">Sendable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK11DigitalCardC6SchemeO"></a>
+                    <a name="//apple_ref/swift/Enum/Scheme" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK11DigitalCardC6SchemeO">Scheme</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The payment scheme of the <code><a href="../Actors/DigitalCard.html">DigitalCard</a></code>.</p>
+
+                        <a href="../Actors/DigitalCard/Scheme.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Scheme</span> <span class="p">:</span> <span class="kt">UInt</span><span class="p">,</span> <span class="kt">Sendable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK11DigitalCardC5StateO"></a>
+                    <a name="//apple_ref/swift/Enum/State" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK11DigitalCardC5StateO">State</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>State of a specific <code><a href="../Actors/DigitalCard.html">DigitalCard</a></code>.</p>
+
+                        <a href="../Actors/DigitalCard/State.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">State</span> <span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="kt">Sendable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright © 2024 THALES. All rights reserved.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
