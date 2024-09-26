@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NotificationService Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/NotificationService" class="dashAnchor"></a>
+    <a title="NotificationService Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">TSHPaySDK</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">TSHPaySDK Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        NotificationService Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../terms-of-use.html">Terms of use</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Actors.html">Actors</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService.html">CardDigitizationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/EligibilityAcceptableData.html">– EligibilityAcceptableData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/EligibleError.html">– EligibleError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/DigitizeError.html">– DigitizeError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/IDVMethod.html">– IDVMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/IDVMethodSelector.html">– IDVMethodSelector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/TermsAndConditions.html">– TermsAndConditions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/PendingCardActivation.html">– PendingCardActivation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/PendingCardActivationSession.html">– PendingCardActivationSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/EligibilityData.html">– EligibilityData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/EligibilityDataComponents.html">– EligibilityDataComponents</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/InstrumentData.html">– InstrumentData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/InstrumentDataComponents.html">– InstrumentDataComponents</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/IssuerData.html">– IssuerData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDigitizationServiceC25TermsAndConditionsSessionV">– TermsAndConditionsSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/ContactlessPaymentSession.html">ContactlessPaymentSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/ContactlessPaymentSession/Eligibility.html">– Eligibility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/ContactlessPaymentSession/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/ContactlessPaymentSession/Event.html">– Event</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/ContactlessPaymentSession/AuthenticateAction.html">– AuthenticateAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard.html">DigitalCard</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/CardArt.html">– CardArt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/CardMetaData.html">– CardMetaData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/Details.html">– Details</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/PaymentKeyInfo.html">– PaymentKeyInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/KeyType.html">– KeyType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/PaymentType.html">– PaymentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/Scheme.html">– Scheme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCardManager.html">DigitalCardManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCardManager/CardManagementAction.html">– CardManagementAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCardManager/ManageCardError.html">– ManageCardError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCardManager/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCardManager/SyncEvent.html">– SyncEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCardManager/SyncStatus.html">– SyncStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/ReplenishmentService.html">ReplenishmentService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/ReplenishmentService/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/TSHPay.html">TSHPay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/TSHPay/DeviceEligibility.html">– DeviceEligibility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/TSHPay/CardHolderVerificationMethod.html">– CardHolderVerificationMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/TSHPay/DeviceOwnerAuthentication.html">– DeviceOwnerAuthentication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/TSHPay/PlistConfigurationType.html">– PlistConfigurationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/TSHPay/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/WalletSecureEnrollmentService.html">WalletSecureEnrollmentService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/WalletSecureEnrollmentService/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/WalletSecureEnrollmentService/Error.html">– Error</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:9TSHPaySDK12DCMErrorCodeC">DCMErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationService.html">NotificationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationService/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationService/KnownMessage.html">– KnownMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationService/MessageSeverity.html">– MessageSeverity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationService/ServerMessage.html">– ServerMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationService/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/QRPaymentSession.html">QRPaymentSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/QRPaymentSession/QRPaymentOutputData.html">– QRPaymentOutputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/QRPaymentSession/QRPaymentInputData.html">– QRPaymentInputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/QRPaymentSession/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TransactionHistoryService.html">TransactionHistoryService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TransactionHistoryService/Record.html">– Record</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TransactionHistoryService/Status.html">– Status</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TransactionHistoryService/TransactionType.html">– TransactionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TransactionHistoryService/Error.html">– Error</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/CardSession.html">CardSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CardSession.html#/s:7CoreNFC11CardSessionC17EmulationUIStatusO">– EmulationUIStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/OSLogType.html">OSLogType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/TransactionContext.html">TransactionContext</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>NotificationService</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">NotificationService</span></code></pre>
+
+                </div>
+              </div>
+            <p>This service provides an <code>AsyncStream</code> callback mechanism for processing notifications.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK19NotificationServiceCACyKcfc"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK19NotificationServiceCACyKcfc">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes the notification service.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">()</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK19NotificationServiceC07processC09forBundleySDys11AnyHashableVypG_tF"></a>
+                    <a name="//apple_ref/swift/Method/processNotification(forBundle:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK19NotificationServiceC07processC09forBundleySDys11AnyHashableVypG_tF">processNotification(forBundle:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Processes the received push message.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">processNotification</span><span class="p">(</span><span class="n">forBundle</span> <span class="nv">bundle</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK19NotificationServiceC5retryyyF"></a>
+                    <a name="//apple_ref/swift/Method/retry()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK19NotificationServiceC5retryyyF">retry()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A mechanism to send the server request again in the event of an error such as a timeout, with no or weak network coverage.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">retry</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK19NotificationServiceC15updatePushTokenyySSYaKF"></a>
+                    <a name="//apple_ref/swift/Method/updatePushToken(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK19NotificationServiceC15updatePushTokenyySSYaKF">updatePushToken(_:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Request to update the push notification token. This function is called whenever the application receives a new push token.
+The SDK is able to recognize when the same push token is provided. The  SDK will return success without making a network call.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">updatePushToken</span><span class="p">(</span><span class="n">_</span> <span class="nv">token</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="n">async</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK19NotificationServiceC23notificationEventStreamScSyAC5StateOGvp"></a>
+                    <a name="//apple_ref/swift/Property/notificationEventStream" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK19NotificationServiceC23notificationEventStreamScSyAC5StateOGvp">notificationEventStream</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Awaits the result from <code><a href="../Classes/NotificationService.html#/s:9TSHPaySDK19NotificationServiceC07processC09forBundleySDys11AnyHashableVypG_tF">processNotification(forBundle:)</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">notificationEventStream</span><span class="p">:</span> <span class="kt">AsyncStream</span><span class="o">&lt;</span><span class="kt">NotificationService</span><span class="o">.</span><span class="kt"><a href="../Classes/NotificationService/State.html">State</a></span><span class="o">&gt;</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Stream of <code><a href="../Classes/NotificationService/State.html">NotificationService.State</a></code></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK19NotificationServiceC16retryEventStreamScSyAC5StateOGvp"></a>
+                    <a name="//apple_ref/swift/Property/retryEventStream" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK19NotificationServiceC16retryEventStreamScSyAC5StateOGvp">retryEventStream</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Awaits the result from <code><a href="../Classes/NotificationService.html#/s:9TSHPaySDK19NotificationServiceC5retryyyF">retry()</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">retryEventStream</span><span class="p">:</span> <span class="kt">AsyncStream</span><span class="o">&lt;</span><span class="kt">NotificationService</span><span class="o">.</span><span class="kt"><a href="../Classes/NotificationService/State.html">State</a></span><span class="o">&gt;</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Stream of <code><a href="../Classes/NotificationService/State.html">NotificationService.State</a></code>.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK19NotificationServiceC5ErrorO"></a>
+                    <a name="//apple_ref/swift/Enum/Error" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK19NotificationServiceC5ErrorO">Error</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notification Service  Errors</p>
+
+                        <a href="../Classes/NotificationService/Error.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Error</span> <span class="p">:</span> <span class="kt">Sendable</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt"><a href="../Classes/NotificationService.html">NotificationService</a></span><span class="o">.</span><span class="kt">Error</span><span class="p">:</span> <span class="kt">Error</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK19NotificationServiceC12KnownMessageO"></a>
+                    <a name="//apple_ref/swift/Enum/KnownMessage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK19NotificationServiceC12KnownMessageO">KnownMessage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>These are the known message types when a notification is processed.</p>
+
+                        <a href="../Classes/NotificationService/KnownMessage.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">KnownMessage</span> <span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK19NotificationServiceC15MessageSeverityO"></a>
+                    <a name="//apple_ref/swift/Enum/MessageSeverity" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK19NotificationServiceC15MessageSeverityO">MessageSeverity</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Different types of push messages.</p>
+
+                        <a href="../Classes/NotificationService/MessageSeverity.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">MessageSeverity</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK19NotificationServiceC13ServerMessageV"></a>
+                    <a name="//apple_ref/swift/Struct/ServerMessage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK19NotificationServiceC13ServerMessageV">ServerMessage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>It contains the data received from server</p>
+
+                        <a href="../Classes/NotificationService/ServerMessage.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ServerMessage</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK19NotificationServiceC5StateO"></a>
+                    <a name="//apple_ref/swift/Enum/State" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK19NotificationServiceC5StateO">State</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>State for Notification Service with <code>processNotification(bundle:)</code> and <code><a href="../Classes/NotificationService.html#/s:9TSHPaySDK19NotificationServiceC5retryyyF">retry()</a></code>.</p>
+
+                        <a href="../Classes/NotificationService/State.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">State</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright © 2024 THALES. All rights reserved.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

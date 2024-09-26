@@ -1,0 +1,208 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/DigitalCardManager/DigitalCard/DigitalCard_CardArt_Error.swift",
+      "line": 7,
+      "symbol": "DigitalCard.CardArt.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/DigitalCardManager/DigitalCard/DigitalCard_Error.swift",
+      "line": 7,
+      "symbol": "DigitalCard.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/DigitalCardManager/DigitalCardManager.swift",
+      "line": 36,
+      "symbol": "DigitalCardManager.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/DigitalCardManager/Error/DigitalCardManager_Error.swift",
+      "line": 49,
+      "symbol": "DigitalCardManager.ManageCardError.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/Internal/Common/Log/LogSubsystem.swift",
+      "line": 21,
+      "symbol": "OSLogType.prefix",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/Internal/Common/Log/LogSubsystem.swift",
+      "line": 30,
+      "symbol": "OSLogType.suffix",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/Internal/Utilities/DCMErrorCode.swift",
+      "line": 10,
+      "symbol": "DCMErrorCode",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/Notification/NotificationService_ServerMessage.swift",
+      "line": 31,
+      "symbol": "NotificationService.MessageSeverity.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession.swift",
+      "line": 13,
+      "symbol": "QRPaymentSession.QRPaymentOutputData.statusWord",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession.swift",
+      "line": 14,
+      "symbol": "QRPaymentSession.QRPaymentOutputData.cid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession.swift",
+      "line": 15,
+      "symbol": "QRPaymentSession.QRPaymentOutputData.chipDataField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession.swift",
+      "line": 16,
+      "symbol": "QRPaymentSession.QRPaymentOutputData.condensedPaymentData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession.swift",
+      "line": 17,
+      "symbol": "QRPaymentSession.QRPaymentOutputData.cardMainAID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession.swift",
+      "line": 18,
+      "symbol": "QRPaymentSession.QRPaymentOutputData.cardMainAppTemplate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession.swift",
+      "line": 19,
+      "symbol": "QRPaymentSession.QRPaymentOutputData.cardAliasAID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession.swift",
+      "line": 20,
+      "symbol": "QRPaymentSession.QRPaymentOutputData.cardAliasAppTemplate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession.swift",
+      "line": 21,
+      "symbol": "QRPaymentSession.QRPaymentOutputData.commonDataTemplate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession.swift",
+      "line": 26,
+      "symbol": "QRPaymentSession.QRPaymentInputData.amount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession.swift",
+      "line": 27,
+      "symbol": "QRPaymentSession.QRPaymentInputData.currencyCode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession.swift",
+      "line": 28,
+      "symbol": "QRPaymentSession.QRPaymentInputData.aid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession.swift",
+      "line": 29,
+      "symbol": "QRPaymentSession.QRPaymentInputData.idd",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession.swift",
+      "line": 31,
+      "symbol": "QRPaymentSession.QRPaymentInputData.init(amount:currencyCode:aid:idd:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession_Error.swift",
+      "line": 11,
+      "symbol": "QRPaymentSession.Error.deviceEnvironmentUnsafe(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession_Error.swift",
+      "line": 12,
+      "symbol": "QRPaymentSession.Error.sessionInProgress",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession_Error.swift",
+      "line": 13,
+      "symbol": "QRPaymentSession.Error.unsupportedPaymentType(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession_Error.swift",
+      "line": 14,
+      "symbol": "QRPaymentSession.Error.invalidQRInputData(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/QR/QRPaymentSession_Error.swift",
+      "line": 15,
+      "symbol": "QRPaymentSession.Error.qrPaymentFailed(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/TSHPay/TSHPay.swift",
+      "line": 9,
+      "symbol": "TSHPay",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK/TSHPaySDK/src/swift/TSHPay/TSHPay.swift",
+      "line": 12,
+      "symbol": "TSHPay",
+      "symbol_kind": "source.lang.swift.decl.actor",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/idpmobile/gitlabci/builds/x_MzhcAK1/0/bps/dme/project/tshpaysdk/dev/ios/main/TSHPaySDK"
+}
