@@ -8,6 +8,9 @@
     <script src="../../js/jquery.min.js" defer></script>
     <script src="../../js/jazzy.js" defer></script>
     
+    <script src="../../js/lunr.min.js" defer></script>
+    <script src="../../js/typeahead.jquery.js" defer></script>
+    <script src="../../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Enum/Error" class="dashAnchor"></a>
@@ -15,6 +18,11 @@
     <header>
       <div class="content-wrapper">
         <p><a href="../../index.html">TSHPaySDK</a></p>
+        <div class="header-right">
+          <form role="search" action="../../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
@@ -222,6 +230,24 @@
               </li>
               <li class="nav-group-task">
                 <a href="../../Classes/QRPaymentSession/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/RemotePaymentSession.html">RemotePaymentSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/RemotePaymentSession/RemotePaymentInputData.html">– RemotePaymentInputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/RemotePaymentSession/RemotePaymentOutputData.html">– RemotePaymentOutputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/RemotePaymentSession/CryptogramType.html">– CryptogramType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/RemotePaymentSession/TransactionType.html">– TransactionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/RemotePaymentSession/Error.html">– Error</a>
               </li>
               <li class="nav-group-task">
                 <a href="../../Classes/TransactionHistoryService.html">TransactionHistoryService</a>
@@ -734,6 +760,61 @@ Example: when application goes into background.</p>
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="k">case</span> <span class="n">posNotSupported</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK25ContactlessPaymentSessionC5ErrorO16cardNotSupportedyA2EmF"></a>
+                    <a name="//apple_ref/swift/Element/cardNotSupported" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK25ContactlessPaymentSessionC5ErrorO16cardNotSupportedyA2EmF">cardNotSupported</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The card is not supported for Contactless Payment</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">cardNotSupported</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK25ContactlessPaymentSessionC5ErrorO13cardNotActiveyA2EmF"></a>
+                    <a name="//apple_ref/swift/Element/cardNotActive" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK25ContactlessPaymentSessionC5ErrorO13cardNotActiveyA2EmF">cardNotActive</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The card selected is not active
+MPA could do resume the card by calling DigitalCardManager/manage(digitalCardID:action:)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">cardNotActive</span></code></pre>
 
                         </div>
                       </div>
