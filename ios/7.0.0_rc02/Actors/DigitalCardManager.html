@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DigitalCardManager Actor Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Actor/DigitalCardManager" class="dashAnchor"></a>
+    <a title="DigitalCardManager Actor Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">TSHPaySDK</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">TSHPaySDK Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        DigitalCardManager Actor Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../terms-of-use.html">Terms of use</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Actors.html">Actors</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService.html">CardDigitizationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/EligibilityAcceptableData.html">– EligibilityAcceptableData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/EligibleError.html">– EligibleError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/DigitizeError.html">– DigitizeError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/IDVMethod.html">– IDVMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/IDVMethodSelector.html">– IDVMethodSelector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/TermsAndConditions.html">– TermsAndConditions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/PendingCardActivation.html">– PendingCardActivation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/PendingCardActivationSession.html">– PendingCardActivationSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/EligibilityData.html">– EligibilityData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/EligibilityDataComponents.html">– EligibilityDataComponents</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDigitizationServiceC14InstrumentDataV">– InstrumentData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/InstrumentDataComponents.html">– InstrumentDataComponents</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/IssuerData.html">– IssuerData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDigitizationServiceC25TermsAndConditionsSessionV">– TermsAndConditionsSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/ContactlessPaymentSession.html">ContactlessPaymentSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/ContactlessPaymentSession/Eligibility.html">– Eligibility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/ContactlessPaymentSession/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/ContactlessPaymentSession/Event.html">– Event</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/ContactlessPaymentSession/AuthenticateAction.html">– AuthenticateAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard.html">DigitalCard</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/CardArt.html">– CardArt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/CardMetaData.html">– CardMetaData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/Details.html">– Details</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/PaymentKeyInfo.html">– PaymentKeyInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/KeyType.html">– KeyType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/PaymentType.html">– PaymentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/Scheme.html">– Scheme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCard/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCardManager.html">DigitalCardManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCardManager/CardManagementAction.html">– CardManagementAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCardManager/ManageCardError.html">– ManageCardError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCardManager/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCardManager/SyncEvent.html">– SyncEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/DigitalCardManager/SyncStatus.html">– SyncStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/NotificationService.html">NotificationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/NotificationService/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/NotificationService/KnownMessage.html">– KnownMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/NotificationService/MessageSeverity.html">– MessageSeverity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/NotificationService/ServerMessage.html">– ServerMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/NotificationService/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/QRPaymentSession.html">QRPaymentSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/QRPaymentSession/QRPaymentOutputData.html">– QRPaymentOutputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/QRPaymentSession/QRPaymentInputData.html">– QRPaymentInputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/QRPaymentSession/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/RemotePaymentSession.html">RemotePaymentSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/RemotePaymentSession/RemotePaymentInputData.html">– RemotePaymentInputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/RemotePaymentSession/RemotePaymentOutputData.html">– RemotePaymentOutputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/RemotePaymentSession/CryptogramType.html">– CryptogramType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/RemotePaymentSession/TransactionType.html">– TransactionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/RemotePaymentSession/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/ReplenishmentService.html">ReplenishmentService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/ReplenishmentService/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/TSHPay.html">TSHPay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/TSHPay/DeviceEligibility.html">– DeviceEligibility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/TSHPay/CardHolderVerificationMethod.html">– CardHolderVerificationMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/TSHPay/DeviceOwnerAuthentication.html">– DeviceOwnerAuthentication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/TSHPay/PlistConfigurationType.html">– PlistConfigurationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/TSHPay/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/WalletSecureEnrollmentService.html">WalletSecureEnrollmentService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/WalletSecureEnrollmentService/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Actors/WalletSecureEnrollmentService/Error.html">– Error</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/TransactionHistoryService.html">TransactionHistoryService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TransactionHistoryService/Record.html">– Record</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TransactionHistoryService/Status.html">– Status</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TransactionHistoryService/TransactionType.html">– TransactionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TransactionHistoryService/Error.html">– Error</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/CardSession.html">CardSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CardSession.html#/s:7CoreNFC11CardSessionC17EmulationUIStatusO">– EmulationUIStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/OSLogType.html">OSLogType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/TransactionContext.html">TransactionContext</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>DigitalCardManager</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="n">actor</span> <span class="kt">DigitalCardManager</span></code></pre>
+
+                </div>
+              </div>
+            <p>Gives access to the list of available <code>digitalCard</code>s, obtaining a specified <code>digitalCard</code>, retrieving the default payment card and unsetting the default status of a card.
+Also allows card operations such as suspend, resume or deletion of a specified <code>digitalCard</code>.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK18DigitalCardManagerCACycfc"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK18DigitalCardManagerCACycfc">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes the Digital Card Manager</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK18DigitalCardManagerC11eventStreamScSyAC9SyncEventOGvp"></a>
+                    <a name="//apple_ref/swift/Property/eventStream" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK18DigitalCardManagerC11eventStreamScSyAC9SyncEventOGvp">eventStream</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Token Sync process state as an AsyncStream
+Await the result from <code><a href="../Actors/DigitalCardManager.html#/s:9TSHPaySDK18DigitalCardManagerC06invokecD4SyncyyYaKF">invokeDigitalCardSync()</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">eventStream</span><span class="p">:</span> <span class="kt">AsyncStream</span><span class="o">&lt;</span><span class="kt"><a href="../Actors/DigitalCardManager/SyncEvent.html">SyncEvent</a></span><span class="o">&gt;</span> <span class="p">{</span> <span class="k">get</span> <span class="n">async</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The current state of the synchronization process as <code>DigitalCardManager.SyncState</code></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK18DigitalCardManagerC012unsetDefaultD0SbyYaKF"></a>
+                    <a name="//apple_ref/swift/Method/unsetDefaultCard()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK18DigitalCardManagerC012unsetDefaultD0SbyYaKF">unsetDefaultCard()</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Removes the current default payment card.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">unsetDefaultCard</span><span class="p">()</span> <span class="n">async</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Boolean. True if operation was successful.
+&gt; Throws:
+&gt; - <code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO23deviceEnvironmentUnsafeyAEsAD_pcAEmF">deviceEnvironmentUnsafe(_:)</a></code> if device environment is unsafe.
+&gt; - <code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO06clientF0yAESScAEmF">clientError(_:)</a></code>   if there is any internal failure.
+&gt; - Else, <code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO7unknownyAEsAD_pcAEmF">unknown(_:)</a></code> - if an unexpected error encountered.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK18DigitalCardManagerC07digitalD05forIDAA0cD0CSgSS_tYaF"></a>
+                    <a name="//apple_ref/swift/Method/digitalCard(forID:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK18DigitalCardManagerC07digitalD05forIDAA0cD0CSgSS_tYaF">digitalCard(forID:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieves a <code><a href="../Actors/DigitalCard.html">DigitalCard</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">digitalCard</span><span class="p">(</span><span class="n">forID</span> <span class="nv">digitalCardID</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="n">async</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Actors/DigitalCard.html">DigitalCard</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>digitalCardID</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>digitalCard  ID</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>digitalCard: <code><a href="../Actors/DigitalCard.html">DigitalCard</a></code> object with the specified <code>digitalCardID</code>.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK18DigitalCardManagerC06invokecD4SyncyyYaKF"></a>
+                    <a name="//apple_ref/swift/Method/invokeDigitalCardSync()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK18DigitalCardManagerC06invokecD4SyncyyYaKF">invokeDigitalCardSync()</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Begins the synchronization process returning its state in an asyncStream.
+Result returned in <code><a href="../Actors/DigitalCardManager.html#/s:9TSHPaySDK18DigitalCardManagerC11eventStreamScSyAC9SyncEventOGvp">eventStream</a></code></p>
+
+<blockquote>
+<p>Throws:</p>
+
+<ul>
+<li><code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO06clientF0yAESScAEmF">clientError(_:)</a></code>   if there is any internal failure.</li>
+<li><code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO06serverF0yAESScAEmF">serverError(_:)</a></code>  if server error encountered.</li>
+<li><code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO07networkF0yA2EmF">networkError</a></code>  if there is a network connectivity error or connection timeout.</li>
+</ul>
+</blockquote>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">invokeDigitalCardSync</span><span class="p">()</span> <span class="n">async</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK18DigitalCardManagerC02iscD11SyncAllowedSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isDigitalCardSyncAllowed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK18DigitalCardManagerC02iscD11SyncAllowedSbvp">isDigitalCardSyncAllowed</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Whether or not digital card synchronization is allowed.</p>
+
+<blockquote>
+<p>Throws:</p>
+
+<ul>
+<li><code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO06clientF0yAESScAEmF">clientError(_:)</a></code>  if there is any internal failure.</li>
+<li>Else, <code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO7unknownyAEsAD_pcAEmF">unknown(_:)</a></code> - if an unexpected error encountered.</li>
+</ul>
+</blockquote>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isDigitalCardSyncAllowed</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="n">async</span> <span class="k">throws</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK18DigitalCardManagerC07digitalD12SyncScheduleSdvp"></a>
+                    <a name="//apple_ref/swift/Property/digitalCardSyncSchedule" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK18DigitalCardManagerC07digitalD12SyncScheduleSdvp">digitalCardSyncSchedule</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>TimeInterval: The number of seconds until the next digital card synchronization.</p>
+
+<blockquote>
+<p>Throws:</p>
+
+<ul>
+<li><code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO06clientF0yAESScAEmF">clientError(_:)</a></code> if there is any internal failure.</li>
+<li>Else, <code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO7unknownyAEsAD_pcAEmF">unknown(_:)</a></code> - if an unexpected error encountered.</li>
+</ul>
+</blockquote>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">digitalCardSyncSchedule</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="p">{</span> <span class="k">get</span> <span class="n">async</span> <span class="k">throws</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK18DigitalCardManagerC8cardListSayAA0cD0CGvp"></a>
+                    <a name="//apple_ref/swift/Property/cardList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK18DigitalCardManagerC8cardListSayAA0cD0CGvp">cardList</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieves an array containing all the available <code><a href="../Actors/DigitalCard.html">DigitalCard</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">cardList</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Actors/DigitalCard.html">DigitalCard</a></span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="n">async</span> <span class="k">throws</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code>[DigitalCard]</code> array of digital cards.
+&gt; Throws:
+&gt; - <code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO23deviceEnvironmentUnsafeyAEsAD_pcAEmF">deviceEnvironmentUnsafe(_:)</a></code> if device environment is unsafe.
+&gt; - <code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO06clientF0yAESScAEmF">clientError(_:)</a></code>  if there is any internal failure.
+&gt; - Else, <code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO7unknownyAEsAD_pcAEmF">unknown(_:)</a></code> - if an unexpected error encountered.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK18DigitalCardManagerC07defaultD0AA0cD0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/defaultCard" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK18DigitalCardManagerC07defaultD0AA0cD0CSgvp">defaultCard</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieves the current default payment card.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">defaultCard</span><span class="p">:</span> <span class="kt"><a href="../Actors/DigitalCard.html">DigitalCard</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="n">async</span> <span class="k">throws</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String: <code>DigitalCardID</code> of the default card.
+&gt; Throws:
+&gt; - <code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO23deviceEnvironmentUnsafeyAEsAD_pcAEmF">deviceEnvironmentUnsafe(_:)</a></code> if device environment is unsafe.
+&gt; - <code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO06clientF0yAESScAEmF">clientError(_:)</a></code>  if there is any internal failure.
+&gt; - Else, <code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO7unknownyAEsAD_pcAEmF">unknown(_:)</a></code> - if an unexpected error encountered.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK18DigitalCardManagerC0D16ManagementActionO"></a>
+                    <a name="//apple_ref/swift/Enum/CardManagementAction" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK18DigitalCardManagerC0D16ManagementActionO">CardManagementAction</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Actions available to the <code><a href="../Actors/DigitalCardManager.html#/s:9TSHPaySDK18DigitalCardManagerC6manage07digitalD2ID6actionSSSgSS_AC0D16ManagementActionOtYaKF">manage(digitalCardID:action:)</a></code> operation.</p>
+
+                        <a href="../Actors/DigitalCardManager/CardManagementAction.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">CardManagementAction</span> <span class="p">:</span> <span class="kt">Sendable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK18DigitalCardManagerC6manage07digitalD2ID6actionSSSgSS_AC0D16ManagementActionOtYaKF"></a>
+                    <a name="//apple_ref/swift/Method/manage(digitalCardID:action:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK18DigitalCardManagerC6manage07digitalD2ID6actionSSSgSS_AC0D16ManagementActionOtYaKF">manage(digitalCardID:<wbr>action:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Perform a management action on a specific <code><a href="../Actors/DigitalCard.html">DigitalCard</a></code>.</p>
+
+<ul>
+<li>The actions available are :
+
+<ul>
+<li>Suspend</li>
+<li>Resume</li>
+<li>Delete</li>
+</ul></li>
+</ul>
+
+<blockquote>
+<p>Throws:</p>
+
+<ul>
+<li><code><a href="../Actors/DigitalCardManager/ManageCardError.html#/s:9TSHPaySDK18DigitalCardManagerC06ManageD5ErrorO28incorrectAuthenticationTokenyA2EmF">incorrectAuthenticationToken</a></code> if authentication token is incorrect.</li>
+<li><code><a href="../Actors/DigitalCardManager/ManageCardError.html#/s:9TSHPaySDK18DigitalCardManagerC06ManageD5ErrorO23unknownWalletProviderIDyA2EmF">unknownWalletProviderID</a></code> if wallet provider ID is unknown.</li>
+<li><code><a href="../Actors/DigitalCardManager/ManageCardError.html#/s:9TSHPaySDK18DigitalCardManagerC06ManageD5ErrorO15unknownWalletIDyA2EmF">unknownWalletID</a></code> if wallet ID is unknown.</li>
+<li><code><a href="../Actors/DigitalCardManager/ManageCardError.html#/s:9TSHPaySDK18DigitalCardManagerC06ManageD5ErrorO07unknowncD2IDyA2EmF">unknownDigitalCardID</a></code> if digital card ID is unknown.</li>
+<li><code><a href="../Actors/DigitalCardManager/ManageCardError.html#/s:9TSHPaySDK18DigitalCardManagerC06ManageD5ErrorO39cardStateDoesNotAllowRequestedOperationyA2EmF">cardStateDoesNotAllowRequestedOperation</a></code> if the card state does not allow the requested operations.</li>
+<li><code><a href="../Actors/DigitalCardManager/ManageCardError.html#/s:9TSHPaySDK18DigitalCardManagerC06ManageD5ErrorO23operationAlreadyOngoingyA2EmF">operationAlreadyOngoing</a></code>  if there is an ongoing operation.</li>
+<li><code><a href="../Actors/DigitalCardManager/ManageCardError.html#/s:9TSHPaySDK18DigitalCardManagerC06ManageD5ErrorO018unexpectedInternalG0yA2EmF">unexpectedInternalError</a></code>  if an unexpected internal error is encountered.</li>
+<li><code><a href="../Actors/DigitalCardManager/ManageCardError.html#/s:9TSHPaySDK18DigitalCardManagerC06ManageD5ErrorO25externalSystemUnavailableyA2EmF">externalSystemUnavailable</a></code>  if external system is unavailable.</li>
+<li><code><a href="../Actors/DigitalCardManager/ManageCardError.html#/s:9TSHPaySDK18DigitalCardManagerC06ManageD5ErrorO15unknownIssuerIDyA2EmF">unknownIssuerID</a></code>  if issuer ID is unknown.</li>
+<li><code><a href="../Actors/DigitalCardManager/ManageCardError.html#/s:9TSHPaySDK18DigitalCardManagerC06ManageD5ErrorO07unknownD2IDyA2EmF">unknownCardID</a></code>  if card ID is unknown.</li>
+<li><code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO06clientF0yAESScAEmF">clientError(_:)</a></code> if any internal errors are encountered.</li>
+<li><code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO07networkF0yA2EmF">networkError</a></code> if there is a network connectivity error or connection timeout.</li>
+<li><code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO06serverF0yAESScAEmF">serverError(_:)</a></code> if error encountered during card operations.</li>
+<li>Else, <code><a href="../Actors/DigitalCardManager/Error.html#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO7unknownyAEsAD_pcAEmF">unknown(_:)</a></code> if an unexpected error encountered.</li>
+</ul>
+</blockquote>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">manage</span><span class="p">(</span><span class="nv">digitalCardID</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="kt">DigitalCardManager</span><span class="o">.</span><span class="kt"><a href="../Actors/DigitalCardManager/CardManagementAction.html">CardManagementAction</a></span><span class="p">)</span> <span class="n">async</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>digitalCardID</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>ID of the <code><a href="../Actors/DigitalCard.html">DigitalCard</a></code> to perfrom the action on.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code><a href="../Actors/DigitalCardManager/CardManagementAction.html">DigitalCardManager.CardManagementAction</a></code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code>DigitalCardID</code> of the operation if successful.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Internal%20Implementation"></a>
+                <a name="//apple_ref/swift/Section/Internal Implementation" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Internal%20Implementation"></a>
+                  <h3 class="section-name"><span>Internal Implementation</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK18DigitalCardManagerC06ManageD5ErrorO"></a>
+                    <a name="//apple_ref/swift/Enum/ManageCardError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK18DigitalCardManagerC06ManageD5ErrorO">ManageCardError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Errors encountered for</p>
+
+<ul>
+<li><code><a href="../Actors/DigitalCardManager.html#/s:9TSHPaySDK18DigitalCardManagerC6manage07digitalD2ID6actionSSSgSS_AC0D16ManagementActionOtYaKF">manage(digitalCardID:action:)</a></code></li>
+</ul>
+
+                        <a href="../Actors/DigitalCardManager/ManageCardError.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">ManageCardError</span> <span class="p">:</span> <span class="kt">Sendable</span><span class="p">,</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt"><a href="../Actors/DigitalCardManager/Error.html">Error</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK18DigitalCardManagerC5ErrorO"></a>
+                    <a name="//apple_ref/swift/Enum/Error" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK18DigitalCardManagerC5ErrorO">Error</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>DigitalCardManager error
+Possible APIS which uses Error</p>
+
+<ul>
+<li><code><a href="../Actors/DigitalCardManager.html#/s:9TSHPaySDK18DigitalCardManagerC012unsetDefaultD0SbyYaKF">unsetDefaultCard()</a></code></li>
+<li><code><a href="../Actors/DigitalCardManager.html#/s:9TSHPaySDK18DigitalCardManagerC6manage07digitalD2ID6actionSSSgSS_AC0D16ManagementActionOtYaKF">manage(digitalCardID:action:)</a></code></li>
+<li><code><a href="../Actors/DigitalCardManager.html#/s:9TSHPaySDK18DigitalCardManagerC06invokecD4SyncyyYaKF">invokeDigitalCardSync()</a></code></li>
+<li><code><a href="../Actors/DigitalCardManager.html#/s:9TSHPaySDK18DigitalCardManagerC8cardListSayAA0cD0CGvp">cardList</a></code></li>
+<li><code><a href="../Actors/DigitalCardManager.html#/s:9TSHPaySDK18DigitalCardManagerC07defaultD0AA0cD0CSgvp">defaultCard</a></code></li>
+</ul>
+
+                        <a href="../Actors/DigitalCardManager/Error.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Error</span> <span class="p">:</span> <span class="kt">Sendable</span><span class="p">,</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt">Error</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK18DigitalCardManagerC9SyncEventO"></a>
+                    <a name="//apple_ref/swift/Enum/SyncEvent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK18DigitalCardManagerC9SyncEventO">SyncEvent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The states that occur during digital card sync stream..</p>
+
+                        <a href="../Actors/DigitalCardManager/SyncEvent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">SyncEvent</span> <span class="p">:</span> <span class="kt">Sendable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK18DigitalCardManagerC10SyncStatusO"></a>
+                    <a name="//apple_ref/swift/Enum/SyncStatus" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK18DigitalCardManagerC10SyncStatusO">SyncStatus</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Status of a digital card sync operation</p>
+
+                        <a href="../Actors/DigitalCardManager/SyncStatus.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">SyncStatus</span> <span class="p">:</span> <span class="kt">UInt</span><span class="p">,</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">Sendable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright © 2024 THALES. All rights reserved.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
