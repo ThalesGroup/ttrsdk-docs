@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>QRPaymentOutputData Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../js/jquery.min.js" defer></script>
+    <script src="../../js/jazzy.js" defer></script>
+    
+    <script src="../../js/lunr.min.js" defer></script>
+    <script src="../../js/typeahead.jquery.js" defer></script>
+    <script src="../../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/QRPaymentOutputData" class="dashAnchor"></a>
+    <a title="QRPaymentOutputData Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../index.html">TSHPaySDK</a></p>
+        <div class="header-right">
+          <form role="search" action="../../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../index.html">TSHPaySDK Reference</a>
+        <img id="carat" src="../../img/carat.png" alt=""/>
+        QRPaymentOutputData Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../terms-of-use.html">Terms of use</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Actors.html">Actors</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService.html">CardDigitizationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/EligibilityAcceptableData.html">– EligibilityAcceptableData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/EligibleError.html">– EligibleError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/DigitizeError.html">– DigitizeError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/IDVMethod.html">– IDVMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/IDVMethodSelector.html">– IDVMethodSelector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/TermsAndConditions.html">– TermsAndConditions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/PendingCardActivation.html">– PendingCardActivation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/PendingCardActivationSession.html">– PendingCardActivationSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/EligibilityData.html">– EligibilityData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/EligibilityDataComponents.html">– EligibilityDataComponents</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDigitizationServiceC14InstrumentDataV">– InstrumentData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/InstrumentDataComponents.html">– InstrumentDataComponents</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/IssuerData.html">– IssuerData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDigitizationServiceC25TermsAndConditionsSessionV">– TermsAndConditionsSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/ContactlessPaymentSession.html">ContactlessPaymentSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/ContactlessPaymentSession/Eligibility.html">– Eligibility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/ContactlessPaymentSession/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/ContactlessPaymentSession/Event.html">– Event</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/ContactlessPaymentSession/AuthenticateAction.html">– AuthenticateAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard.html">DigitalCard</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard/CardArt.html">– CardArt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard/CardMetaData.html">– CardMetaData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard/Details.html">– Details</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard/PaymentKeyInfo.html">– PaymentKeyInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard/KeyType.html">– KeyType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard/PaymentType.html">– PaymentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard/Scheme.html">– Scheme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCardManager.html">DigitalCardManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCardManager/CardManagementAction.html">– CardManagementAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCardManager/ManageCardError.html">– ManageCardError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCardManager/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCardManager/SyncEvent.html">– SyncEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCardManager/SyncStatus.html">– SyncStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/NotificationService.html">NotificationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/NotificationService/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/NotificationService/KnownMessage.html">– KnownMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/NotificationService/MessageSeverity.html">– MessageSeverity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/NotificationService/ServerMessage.html">– ServerMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/NotificationService/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/ODARenewalService.html">ODARenewalService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/ODARenewalService/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/QRPaymentSession.html">QRPaymentSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/QRPaymentSession/QRPaymentOutputData.html">– QRPaymentOutputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/QRPaymentSession/QRPaymentInputData.html">– QRPaymentInputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/QRPaymentSession/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/RemotePaymentSession.html">RemotePaymentSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/RemotePaymentSession/RemotePaymentInputData.html">– RemotePaymentInputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/RemotePaymentSession/RemotePaymentOutputData.html">– RemotePaymentOutputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/RemotePaymentSession/CryptogramType.html">– CryptogramType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/RemotePaymentSession/TransactionType.html">– TransactionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/RemotePaymentSession/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/ReplenishmentService.html">ReplenishmentService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/ReplenishmentService/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/TSHPay.html">TSHPay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/TSHPay/DeviceEligibility.html">– DeviceEligibility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/TSHPay/CardHolderVerificationMethod.html">– CardHolderVerificationMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/TSHPay/DeviceOwnerAuthentication.html">– DeviceOwnerAuthentication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/TSHPay/PlistConfigurationType.html">– PlistConfigurationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/TSHPay/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/WalletSecureEnrollmentService.html">WalletSecureEnrollmentService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/WalletSecureEnrollmentService/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/WalletSecureEnrollmentService/Error.html">– Error</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Classes/CertificationHelper.html">CertificationHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ContactlessManager.html">ContactlessManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/DigitalizedCardProfileKeys.html">DigitalizedCardProfileKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/TransactionHistoryService.html">TransactionHistoryService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/TransactionHistoryService/Record.html">– Record</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/TransactionHistoryService/Status.html">– Status</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/TransactionHistoryService/TransactionType.html">– TransactionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/TransactionHistoryService/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/TrxCtxManager.html">TrxCtxManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/WalletManager.html">WalletManager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Enums/Assessment.html">Assessment</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Extensions/CardSession.html">CardSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Extensions/CardSession.html#/s:7CoreNFC11CardSessionC17EmulationUIStatusO">– EmulationUIStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Extensions/OSLogType.html">OSLogType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Structs/AIDInfo.html">AIDInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/AIDInfo/LockStatus.html">– LockStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/TransactionContext.html">TransactionContext</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>QRPaymentOutputData</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">QRPaymentOutputData</span> <span class="p">:</span> <span class="kt">Sendable</span></code></pre>
+
+                </div>
+              </div>
+            <p>The output data structure for QR code payments, encapsulating various data elements required for the transaction.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK16QRPaymentSessionC0C10OutputDataV10statusWord10Foundation0F0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/statusWord" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK16QRPaymentSessionC0C10OutputDataV10statusWord10Foundation0F0Vvp">statusWord</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The Status Word associated with the transaction.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">statusWord</span><span class="p">:</span> <span class="kt">Data</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK16QRPaymentSessionC0C10OutputDataV3cid10Foundation0F0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/cid" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK16QRPaymentSessionC0C10OutputDataV3cid10Foundation0F0VSgvp">cid</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Cryptogram Information data (CID).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">cid</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK16QRPaymentSessionC0C10OutputDataV04chipF5Field10Foundation0F0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/chipDataField" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK16QRPaymentSessionC0C10OutputDataV04chipF5Field10Foundation0F0VSgvp">chipDataField</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Chip Data Field for building the QR code.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">chipDataField</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK16QRPaymentSessionC0C10OutputDataV016condensedPaymentF010Foundation0F0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/condensedPaymentData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK16QRPaymentSessionC0C10OutputDataV016condensedPaymentF010Foundation0F0VSgvp">condensedPaymentData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Condensed Payment Data for QR code payment.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">condensedPaymentData</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK16QRPaymentSessionC0C10OutputDataV11cardMainAID10Foundation0F0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/cardMainAID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK16QRPaymentSessionC0C10OutputDataV11cardMainAID10Foundation0F0VSgvp">cardMainAID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The main Application Identifier (AID) for the card..</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">cardMainAID</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK16QRPaymentSessionC0C10OutputDataV19cardMainAppTemplate10Foundation0F0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/cardMainAppTemplate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK16QRPaymentSessionC0C10OutputDataV19cardMainAppTemplate10Foundation0F0VSgvp">cardMainAppTemplate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The main Application Template of the card.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">cardMainAppTemplate</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK16QRPaymentSessionC0C10OutputDataV12cardAliasAID10Foundation0F0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/cardAliasAID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK16QRPaymentSessionC0C10OutputDataV12cardAliasAID10Foundation0F0VSgvp">cardAliasAID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The alternate Application Identifier (AID) of the card.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">cardAliasAID</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK16QRPaymentSessionC0C10OutputDataV20cardAliasAppTemplate10Foundation0F0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/cardAliasAppTemplate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK16QRPaymentSessionC0C10OutputDataV20cardAliasAppTemplate10Foundation0F0VSgvp">cardAliasAppTemplate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The alternate Application Template of the card.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">cardAliasAppTemplate</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK16QRPaymentSessionC0C10OutputDataV06commonF8Template10Foundation0F0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/commonDataTemplate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK16QRPaymentSessionC0C10OutputDataV06commonF8Template10Foundation0F0VSgvp">commonDataTemplate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The common Data template calculated during the payment.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">commonDataTemplate</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright © 2025 THALES. All rights reserved.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
