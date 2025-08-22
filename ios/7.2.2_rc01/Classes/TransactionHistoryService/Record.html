@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Record Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../js/jquery.min.js" defer></script>
+    <script src="../../js/jazzy.js" defer></script>
+    
+    <script src="../../js/lunr.min.js" defer></script>
+    <script src="../../js/typeahead.jquery.js" defer></script>
+    <script src="../../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/Record" class="dashAnchor"></a>
+    <a title="Record Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../index.html">TSHPaySDK</a></p>
+        <div class="header-right">
+          <form role="search" action="../../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../index.html">TSHPaySDK Reference</a>
+        <img id="carat" src="../../img/carat.png" alt=""/>
+        Record Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../terms-of-use.html">Terms of use</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Actors.html">Actors</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService.html">CardDigitizationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/EligibilityAcceptableData.html">– EligibilityAcceptableData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/EligibleError.html">– EligibleError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/DigitizeError.html">– DigitizeError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/IDVMethod.html">– IDVMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/IDVMethodSelector.html">– IDVMethodSelector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/TermsAndConditions.html">– TermsAndConditions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/PendingCardActivation.html">– PendingCardActivation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/PendingCardActivationSession.html">– PendingCardActivationSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/EligibilityData.html">– EligibilityData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/EligibilityDataComponents.html">– EligibilityDataComponents</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDigitizationServiceC14InstrumentDataV">– InstrumentData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/InstrumentDataComponents.html">– InstrumentDataComponents</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/IssuerData.html">– IssuerData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/CardDigitizationService.html#/s:9TSHPaySDK23CardDigitizationServiceC25TermsAndConditionsSessionV">– TermsAndConditionsSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/ContactlessPaymentSession.html">ContactlessPaymentSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/ContactlessPaymentSession/Eligibility.html">– Eligibility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/ContactlessPaymentSession/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/ContactlessPaymentSession/Event.html">– Event</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/ContactlessPaymentSession/AuthenticateAction.html">– AuthenticateAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard.html">DigitalCard</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard/CardArt.html">– CardArt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard/CardMetaData.html">– CardMetaData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard/Details.html">– Details</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard/PaymentKeyInfo.html">– PaymentKeyInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard/KeyType.html">– KeyType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard/PaymentType.html">– PaymentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard/Scheme.html">– Scheme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCard/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCardManager.html">DigitalCardManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCardManager/CardManagementAction.html">– CardManagementAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCardManager/ManageCardError.html">– ManageCardError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCardManager/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCardManager/SyncEvent.html">– SyncEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/DigitalCardManager/SyncStatus.html">– SyncStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/NotificationService.html">NotificationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/NotificationService/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/NotificationService/KnownMessage.html">– KnownMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/NotificationService/MessageSeverity.html">– MessageSeverity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/NotificationService/ServerMessage.html">– ServerMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/NotificationService/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/ODARenewalService.html">ODARenewalService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/ODARenewalService/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/QRPaymentSession.html">QRPaymentSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/QRPaymentSession/QRPaymentOutputData.html">– QRPaymentOutputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/QRPaymentSession/QRPaymentInputData.html">– QRPaymentInputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/QRPaymentSession/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/RemotePaymentSession.html">RemotePaymentSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/RemotePaymentSession/RemotePaymentInputData.html">– RemotePaymentInputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/RemotePaymentSession/RemotePaymentOutputData.html">– RemotePaymentOutputData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/RemotePaymentSession/CryptogramType.html">– CryptogramType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/RemotePaymentSession/TransactionType.html">– TransactionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/RemotePaymentSession/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/ReplenishmentService.html">ReplenishmentService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/ReplenishmentService/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/TSHPay.html">TSHPay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/TSHPay/DeviceEligibility.html">– DeviceEligibility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/TSHPay/CardHolderVerificationMethod.html">– CardHolderVerificationMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/TSHPay/DeviceOwnerAuthentication.html">– DeviceOwnerAuthentication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/TSHPay/PlistConfigurationType.html">– PlistConfigurationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/TSHPay/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/WalletSecureEnrollmentService.html">WalletSecureEnrollmentService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/WalletSecureEnrollmentService/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Actors/WalletSecureEnrollmentService/Error.html">– Error</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Classes/TransactionHistoryService.html">TransactionHistoryService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/TransactionHistoryService/Record.html">– Record</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/TransactionHistoryService/Status.html">– Status</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/TransactionHistoryService/TransactionType.html">– TransactionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/TransactionHistoryService/Error.html">– Error</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Extensions/CardSession.html">CardSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Extensions/CardSession.html#/s:7CoreNFC11CardSessionC17EmulationUIStatusO">– EmulationUIStatus</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Structs/AIDInfo.html">AIDInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/AIDInfo/LockStatus.html">– LockStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/TransactionContext.html">TransactionContext</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Record</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Record</span> <span class="p">:</span> <span class="kt">Sendable</span></code></pre>
+
+                </div>
+              </div>
+            <p>Data structure containing data related to a transaction.</p>
+<div class="aside aside-since">
+    <p class="aside-title">Since</p>
+    7.0.0
+
+</div>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV2idSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/id" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV2idSSSgvp">id</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The ID of the transaction which is dependent on the scheme used.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV4dateSSvp"></a>
+                    <a name="//apple_ref/swift/Property/date" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV4dateSSvp">date</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The transaction date in ISO 8601 format: YYYY-MM-DDThh:mm:ssTZD.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV6statusAC6StatusOvp"></a>
+                    <a name="//apple_ref/swift/Property/status" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV6statusAC6StatusOvp">status</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The status of the transaction.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">status</span><span class="p">:</span> <span class="kt"><a href="../../Classes/TransactionHistoryService/Status.html">Status</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV4typeAC0C4TypeOvp"></a>
+                    <a name="//apple_ref/swift/Property/type" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV4typeAC0C4TypeOvp">type</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The type of the transaction.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../../Classes/TransactionHistoryService/TransactionType.html">TransactionType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV12currencyCodeSSvp"></a>
+                    <a name="//apple_ref/swift/Property/currencyCode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV12currencyCodeSSvp">currencyCode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The 3-letter currency code in ISO 4217 format.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">currencyCode</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV6amountSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/amount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV6amountSdSgvp">amount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The transaction amount. In the event of a refund, the transaction amount may be negative.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">amount</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV13displayAmountSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/displayAmount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV13displayAmountSSSgvp">displayAmount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>String representation of amount in ISO 4217 format, with the correct
+number of digits after the decimal separator.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">displayAmount</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV12merchantNameSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/merchantName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV12merchantNameSSSgvp">merchantName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The merchant name.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">merchantName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV12merchantTypeSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/merchantType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV12merchantTypeSSSgvp">merchantType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The merchant category code (MCC).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">merchantType</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV18merchantPostalCodeSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/merchantPostalCode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV18merchantPostalCodeSSSgvp">merchantPostalCode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The merchant postal code.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">merchantPostalCode</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV10terminalIDSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/terminalID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV10terminalIDSSSgvp">terminalID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Helps acquirers, issuers, or merchants trace and audit transactions for specific terminals.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">terminalID</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV10merchantIDSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/merchantID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV10merchantIDSSSgvp">merchantID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Uniquely identifies each merchant and their transaction location.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">merchantID</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV011isAuxiliaryC0Sbvp"></a>
+                    <a name="//apple_ref/swift/Property/isAuxiliaryTransaction" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TSHPaySDK25TransactionHistoryServiceC6RecordV011isAuxiliaryC0Sbvp">isAuxiliaryTransaction</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Indicates if the record belongs to the auxiliary card. The record belongs to the primary card if it is <code>false</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">isAuxiliaryTransaction</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright © 2025 THALES. All rights reserved.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
