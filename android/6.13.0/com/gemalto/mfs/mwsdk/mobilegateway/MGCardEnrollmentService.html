@@ -126,7 +126,7 @@ loadScripts(document, 'script');</script>
  <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;pushSessionId,
  <a href="listener/CardEligibilityListener.html" title="interface in com.gemalto.mfs.mwsdk.mobilegateway.listener">CardEligibilityListener</a>&nbsp;cardEligibilityListener)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
-<div class="block">Before card digitization happens, the contactless card has to be checked for eligibility first.</div>
+<div class="block">Eligibility check with `pushSessionID` has to be used in the Backend-to-Backend Push Card Enrollment.</div>
 </div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code>void</code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#digitizeCard(com.gemalto.mfs.mwsdk.mobilegateway.enrollment.TermsAndConditionSession,byte%5B%5D,com.gemalto.mfs.mwsdk.mobilegateway.listener.MGDigitizationListener)" class="member-name-link">digitizeCard</a><wbr>(<a href="enrollment/TermsAndConditionSession.html" title="interface in com.gemalto.mfs.mwsdk.mobilegateway.enrollment">TermsAndConditionSession</a>&nbsp;tncAcceptanceToken,
@@ -291,9 +291,10 @@ loadScripts(document, 'script');</script>
  <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;pushSessionId,
  @NonNull
  <a href="listener/CardEligibilityListener.html" title="interface in com.gemalto.mfs.mwsdk.mobilegateway.listener">CardEligibilityListener</a>&nbsp;cardEligibilityListener)</span></div>
-<div class="block">Before card digitization happens, the contactless card has to be checked for eligibility first.
- This method is mainly used for this purpose.
- This asynchronous method accepts an eligibility data and push session id.
+<div class="block">Eligibility check with `pushSessionID` has to be used in the Backend-to-Backend Push Card Enrollment.
+ The wallet server will first push the payment instrument to the Thales server.
+ In return, the Thales server will return the `pushSessionID` to be passed to the`checkEligibility` API
+ to check if payment instrument is eligible for digitization.
  <p>
  Eligibility data contains input method, language, information related to end user wallet account and serial number of the device.
  <p>
